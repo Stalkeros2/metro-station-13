@@ -1,8 +1,8 @@
 ## Server name: This appears at the top of the screen in-game. Remove the # infront of SERVERNAME and replace 'tgstation' with the name of your choice
-SERVERNAME M.E.T.R.O. 2033 [RU]
+SERVERNAME [INT] M.E.T.R.O. 2033 
 
 ## Station name: The name of the station as it is referred to in-game. If commented out, the game will generate a random name instead.
-STATIONNAME M.E.T.R.O. 2033 [RU]
+STATIONNAME [INT] M.E.T.R.O. 2033
 
 # Lobby time: This is the amount of time between rounds that players have to setup their characters and be ready.
 LOBBY_COUNTDOWN 200# Round End Time: This is the amount of time after the round ends that players have to murder death kill each other.
@@ -140,7 +140,7 @@ WIKIURL h
 RULESURL h
 
 ##Github address
-GITHUBURL h
+GITHUBURL natribu.org
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
 BANAPPEALS h
