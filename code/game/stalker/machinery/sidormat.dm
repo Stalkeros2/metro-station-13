@@ -9,7 +9,7 @@ var/list/global_sidormat_list = list(
 	"Handguns" = list(
 		///////////////////////////// **Пистолеты** /////////////////////////////////////
 		new /datum/data/stalker_equipment("PM",		"ПМ",			/obj/item/weapon/gun/projectile/automatic/pistol/pm,				6000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("Podonok",     "Подонок"  /obj/item/weapon/gun/projectile/automatic/metro/podonok             6000, EXPERIENCED),
+		new /datum/data/stalker_equipment("Podonok",     "Подонок",  /obj/item/weapon/gun/projectile/automatic/metro/podonok,             6000, EXPERIENCED),
 		new /datum/data/stalker_equipment("Revolver .44",	"Револьвер",	/obj/item/weapon/gun/projectile/revolver/metro/revolver,					3000,	ROOKIE)
 		),
 
@@ -17,8 +17,8 @@ var/list/global_sidormat_list = list(
 		///////////////////////////// **Автоматы, ПП** /////////////////////////////////////
 		new /datum/data/stalker_equipment("Bastard",	"Ублюдок",		/obj/item/weapon/gun/projectile/automatic/metro/bastard,				10000,	ROOKIE),
 		new /datum/data/stalker_equipment("Makeshift Kalash",			"Кустарный калаш",			/obj/item/weapon/gun/projectile/automatic/ak74/makeshift,	18000,	EXPERIENCED),
-		new /datum/data/stalker_equipment ("Kiparis",    "Кипарис"       /obj/item/weapon/gun/projectile/automatic/kiparis                10000, ROOKIE),
-		new /datum/data/stalker_equipment ("PPSh", "ППШ"                 /obj/item/weapon/gun/projectile/automatic/ppsh        10000, ROOKIE)
+		new /datum/data/stalker_equipment ("Kiparis",    "Кипарис",       /obj/item/weapon/gun/projectile/automatic/kiparis,                10000, ROOKIE),
+		new /datum/data/stalker_equipment ("PPSh", "ППШ",                 /obj/item/weapon/gun/projectile/automatic/ppsh,        10000, ROOKIE)
 		),
 
 	"Shotguns" = list(
