@@ -1,0 +1,12 @@
+ghostgamer = TRC Lieutenant
+
+samosbor = Bandit Pahan
+
+doctoralex = TRC Lieutenant
+
+doctoralex = Bandit Pahan
+doctoralex = Bandit Barman
+
+leony24 = TRC Lieutenant
+
+leony24 = Bandit Pahan
