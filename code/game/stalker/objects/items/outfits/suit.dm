@@ -71,7 +71,7 @@
 
 	internal_slot.attack_hand(user)
 
-/////////////////////////////////////////////////////////////////////ШЛЕМЫ НОЧНОГО ВИДЕНЬЯ, ВНУТРЕННИЕ ХРАНИЛИЩА И Т.Д./////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////ГГ‹Г…ГЊГ› ГЌГЋГ—ГЌГЋГѓГЋ Г‚Г€Г„Г…ГЌГњГџ, Г‚ГЌГ“Г’ГђГ…ГЌГЌГ€Г… Г•ГђГЂГЌГ€Г‹Г€Г™ГЂ Г€ Г’.Г„./////////////////////////////////////////////////////////////////////////////////////////
 
 /obj/item/clothing
 	var/obj/item/nightvision/nvg = null
@@ -181,8 +181,8 @@
 
 /obj/item/clothing/suit/hooded/kozhanka
 	name = "leather jacket"
-	desc = "Обычна&#255; плотна&#255; кожана&#255; куртка, каких много. Слегка усиливает противопулевую и осколочную защиту. Неэффективна против аномальных и других воздействий."
-	eng_desc = "Common grab of a novice stalker. It won’t save you from bullets or anomalies, but it’s still better than nothing."
+	desc = "ГЋГЎГ»Г·Г­Г &#255; ГЇГ«Г®ГІГ­Г &#255; ГЄГ®Г¦Г Г­Г &#255; ГЄГіГ°ГІГЄГ , ГЄГ ГЄГЁГµ Г¬Г­Г®ГЈГ®. Г‘Г«ГҐГЈГЄГ  ГіГ±ГЁГ«ГЁГўГ ГҐГІ ГЇГ°Г®ГІГЁГўГ®ГЇГіГ«ГҐГўГіГѕ ГЁ Г®Г±ГЄГ®Г«Г®Г·Г­ГіГѕ Г§Г Г№ГЁГІГі. ГЌГҐГЅГґГґГҐГЄГІГЁГўГ­Г  ГЇГ°Г®ГІГЁГў Г Г­Г®Г¬Г Г«ГјГ­Г»Гµ ГЁ Г¤Г°ГіГЈГЁГµ ГўГ®Г§Г¤ГҐГ©Г±ГІГўГЁГ©."
+	eng_desc = "Common grab of a novice stalker. It wonвЂ™t save you from bullets or anomalies, but itвЂ™s still better than nothing."
 	icon_state = "kozhanka"
 	item_state = "det_suit"
 	blood_overlay_type = "armor"
@@ -196,7 +196,7 @@
 	unacidable = 1
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/kozhanka
 	durability = 75
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/head/winterhood/stalker
@@ -222,7 +222,7 @@
 
 /obj/item/clothing/suit/hooded/kozhanka/banditka
 	name = "bandit jacket"
-	desc = "Традиционна&#255; одежда бандита - кожана&#255; куртка со вшитыми броневыми элементами. Даёт защиту, крайне недостаточную в жёстких услови&#255;х Зоны."
+	desc = "Г’Г°Г Г¤ГЁГ¶ГЁГ®Г­Г­Г &#255; Г®Г¤ГҐГ¦Г¤Г  ГЎГ Г­Г¤ГЁГІГ  - ГЄГ®Г¦Г Г­Г &#255; ГЄГіГ°ГІГЄГ  Г±Г® ГўГёГЁГІГ»Г¬ГЁ ГЎГ°Г®Г­ГҐГўГ»Г¬ГЁ ГЅГ«ГҐГ¬ГҐГ­ГІГ Г¬ГЁ. Г„Г ВёГІ Г§Г Г№ГЁГІГі, ГЄГ°Г Г©Г­ГҐ Г­ГҐГ¤Г®Г±ГІГ ГІГ®Г·Г­ГіГѕ Гў Г¦ВёГ±ГІГЄГЁГµ ГіГ±Г«Г®ГўГЁ&#255;Гµ Г‡Г®Г­Г»."
 	eng_desc = "Traditional bandit clothing - a leather jacket with armor pieces sewed in. The protection it provides is completely inadequate for the harsh conditions of the Zone. Does not hold any artifacts by default, but can be upgraded to hold one artifact."
 	icon_state = "banditka"
 	item_state = "ro_suit"
@@ -236,21 +236,21 @@
 
 /obj/item/clothing/suit/hooded/kozhanka/banditka/unique
 	name = "chain-mail jacket"
-	desc = "Обычный слабенький бандитский бронежилет, но в подкладку вшито кольчужное полотно. Сделать такой под силу почти каждому, но терпени&#255; хватит далеко не всем."
+	desc = "ГЋГЎГ»Г·Г­Г»Г© Г±Г«Г ГЎГҐГ­ГјГЄГЁГ© ГЎГ Г­Г¤ГЁГІГ±ГЄГЁГ© ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІ, Г­Г® Гў ГЇГ®Г¤ГЄГ«Г Г¤ГЄГі ГўГёГЁГІГ® ГЄГ®Г«ГјГ·ГіГ¦Г­Г®ГҐ ГЇГ®Г«Г®ГІГ­Г®. Г‘Г¤ГҐГ«Г ГІГј ГІГ ГЄГ®Г© ГЇГ®Г¤ Г±ГЁГ«Гі ГЇГ®Г·ГІГЁ ГЄГ Г¦Г¤Г®Г¬Гі, Г­Г® ГІГҐГ°ГЇГҐГ­ГЁ&#255; ГµГўГ ГІГЁГІ Г¤Г Г«ГҐГЄГ® Г­ГҐ ГўГ±ГҐГ¬."
 	//icon_state = "banditka_unique"
 	armor = list(melee = 15, bullet = 28, laser = 15,burn = 5, bomb = 15, bio = 5, rad = 5, electro = 5, psy = 0)
 	unique = 1
 
 /obj/item/clothing/suit/hooded/kozhanka/unique
 	name = "anomaly jacket"
-	desc = "Эту куртку сн&#255;ли с трупа одного из сталкеров, умерших в аномалии 'кисель'. Пролежав долгое врем&#255; в аномалии, куртка обрела свойство ускор&#255;ть метаболизм."
+	desc = "ГќГІГі ГЄГіГ°ГІГЄГі Г±Г­&#255;Г«ГЁ Г± ГІГ°ГіГЇГ  Г®Г¤Г­Г®ГЈГ® ГЁГ§ Г±ГІГ Г«ГЄГҐГ°Г®Гў, ГіГ¬ГҐГ°ГёГЁГµ Гў Г Г­Г®Г¬Г Г«ГЁГЁ 'ГЄГЁГ±ГҐГ«Гј'. ГЏГ°Г®Г«ГҐГ¦Г Гў Г¤Г®Г«ГЈГ®ГҐ ГўГ°ГҐГ¬&#255; Гў Г Г­Г®Г¬Г Г«ГЁГЁ, ГЄГіГ°ГІГЄГ  Г®ГЎГ°ГҐГ«Г  Г±ГўГ®Г©Г±ГІГўГ® ГіГ±ГЄГ®Г°&#255;ГІГј Г¬ГҐГІГ ГЎГ®Г«ГЁГ§Г¬."
 	//icon_state = "kozhanka_unique"
 	armor = list(melee = 10, bullet = 10, laser = 10,burn = 10, bomb = 20, bio = 20, rad = 10, electro = 10, psy = 0)
 	unique = 0
 
 /obj/item/clothing/suit/hooded/kombez
 	name = "sunrise"
-	desc = "Производимый 'народными умельцами' комбинезон сталкера представл&#255;ет собой эффективное сочетание лёгкого армейского бронежилета и комбинезона из прорезиненой ткани. Усилен за счёт встроенных кевларовых пластин. Неплохо защищает от слабого стрелкового оружи&#255;. В целом крайне недостаточен дл&#255; глубоких рейдов и серьёзных операций в узлах Зоны."
+	desc = "ГЏГ°Г®ГЁГ§ГўГ®Г¤ГЁГ¬Г»Г© 'Г­Г Г°Г®Г¤Г­Г»Г¬ГЁ ГіГ¬ГҐГ«ГјГ¶Г Г¬ГЁ' ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­ Г±ГІГ Г«ГЄГҐГ°Г  ГЇГ°ГҐГ¤Г±ГІГ ГўГ«&#255;ГҐГІ Г±Г®ГЎГ®Г© ГЅГґГґГҐГЄГІГЁГўГ­Г®ГҐ Г±Г®Г·ГҐГІГ Г­ГЁГҐ Г«ВёГЈГЄГ®ГЈГ® Г Г°Г¬ГҐГ©Г±ГЄГ®ГЈГ® ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІГ  ГЁ ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­Г  ГЁГ§ ГЇГ°Г®Г°ГҐГ§ГЁГ­ГҐГ­Г®Г© ГІГЄГ Г­ГЁ. Г“Г±ГЁГ«ГҐГ­ Г§Г  Г±Г·ВёГІ ГўГ±ГІГ°Г®ГҐГ­Г­Г»Гµ ГЄГҐГўГ«Г Г°Г®ГўГ»Гµ ГЇГ«Г Г±ГІГЁГ­. ГЌГҐГЇГ«Г®ГµГ® Г§Г Г№ГЁГ№Г ГҐГІ Г®ГІ Г±Г«Г ГЎГ®ГЈГ® Г±ГІГ°ГҐГ«ГЄГ®ГўГ®ГЈГ® Г®Г°ГіГ¦ГЁ&#255;. Г‚ Г¶ГҐГ«Г®Г¬ ГЄГ°Г Г©Г­ГҐ Г­ГҐГ¤Г®Г±ГІГ ГІГ®Г·ГҐГ­ Г¤Г«&#255; ГЈГ«ГіГЎГ®ГЄГЁГµ Г°ГҐГ©Г¤Г®Гў ГЁ Г±ГҐГ°ГјВёГ§Г­Г»Гµ Г®ГЇГҐГ°Г Г¶ГЁГ© Гў ГіГ§Г«Г Гµ Г‡Г®Г­Г»."
 	eng_desc = "This DIY stalker bodysuit is a combination of a bodysuit of twin-layered rubberized cloth with plexiglass lining and built-in body armor. Despite the fact that the body armor is incapable of protecting the wearer from even pistol bullets, the suit enjoys great popularity due to its low cost and modification potential. Comes with built-in artifact containers."
 	icon_state = "kombez"
 	item_state = "syndicate-green"
@@ -268,7 +268,7 @@
 	armor = list(melee = 35, bullet = 25, laser = 50,burn = 50, bomb = 30, bio = 50, rad = 50, electro = 50, psy = 0)
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/kombez
 	durability = 200
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/head/winterhood/stalker/kombez
@@ -279,7 +279,7 @@
 
 /obj/item/clothing/suit/jacket/sidor
 	name = "old vest"
-	desc = "Кошегна&#255; жилетка, сделанна&#255; из кожи химеры."
+	desc = "ГЉГ®ГёГҐГЈГ­Г &#255; Г¦ГЁГ«ГҐГІГЄГ , Г±Г¤ГҐГ«Г Г­Г­Г &#255; ГЁГ§ ГЄГ®Г¦ГЁ ГµГЁГ¬ГҐГ°Г»."
 	icon_state = "sidor_vest"
 	item_state = "det_suit"
 	burn_state = FIRE_PROOF
@@ -288,7 +288,7 @@
 
 /obj/item/clothing/suit/hooded/kozhanka/banditka/coat
 	name = "trenchcoat"
-	desc = "Обычный плащ из чёрной кожи. Особенной защиты носителю не обеспечивает, разве что не даст замёрзнуть ночью и см&#255;гчит укус слепой собаки. Достаточно неудобен, но, тем не менее, часто используетс&#255; бандитами - возможно, исключительно из-за внешнего вида."
+	desc = "ГЋГЎГ»Г·Г­Г»Г© ГЇГ«Г Г№ ГЁГ§ Г·ВёГ°Г­Г®Г© ГЄГ®Г¦ГЁ. ГЋГ±Г®ГЎГҐГ­Г­Г®Г© Г§Г Г№ГЁГІГ» Г­Г®Г±ГЁГІГҐГ«Гѕ Г­ГҐ Г®ГЎГҐГ±ГЇГҐГ·ГЁГўГ ГҐГІ, Г°Г Г§ГўГҐ Г·ГІГ® Г­ГҐ Г¤Г Г±ГІ Г§Г Г¬ВёГ°Г§Г­ГіГІГј Г­Г®Г·ГјГѕ ГЁ Г±Г¬&#255;ГЈГ·ГЁГІ ГіГЄГіГ± Г±Г«ГҐГЇГ®Г© Г±Г®ГЎГ ГЄГЁ. Г„Г®Г±ГІГ ГІГ®Г·Г­Г® Г­ГҐГіГ¤Г®ГЎГҐГ­, Г­Г®, ГІГҐГ¬ Г­ГҐ Г¬ГҐГ­ГҐГҐ, Г·Г Г±ГІГ® ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГІГ±&#255; ГЎГ Г­Г¤ГЁГІГ Г¬ГЁ - ГўГ®Г§Г¬Г®Г¦Г­Г®, ГЁГ±ГЄГ«ГѕГ·ГЁГІГҐГ«ГјГ­Г® ГЁГ§-Г§Г  ГўГ­ГҐГёГ­ГҐГЈГ® ГўГЁГ¤Г ."
 	eng_desc = "A regular black leather trench coat. Has no special purpose other than to keep the wearer warm at night or protect from a blind dog bite. Although the trench coat is not particularly comfortable, it is often used by Bandits in the Zone - either because it allows them to hide in the dark or simply due to its \"cool\" appearance."
 	icon_state = "banditcoat"
 	blood_overlay_type = "armor"
@@ -304,7 +304,7 @@
 
 /obj/item/clothing/suit/hooded/kozhanka/banditka/coat/brown
 	icon_state = "banditcoatbrown"
-	desc = "Обычный плащ из коричневой кожи. Особенной защиты носителю не обеспечивает, разве что не даст замёрзнуть ночью и см&#255;гчит укус слепой собаки. Достаточно неудобен, но, тем не менее, часто используетс&#255; бандитами - возможно, исключительно из-за внешнего вида."
+	desc = "ГЋГЎГ»Г·Г­Г»Г© ГЇГ«Г Г№ ГЁГ§ ГЄГ®Г°ГЁГ·Г­ГҐГўГ®Г© ГЄГ®Г¦ГЁ. ГЋГ±Г®ГЎГҐГ­Г­Г®Г© Г§Г Г№ГЁГІГ» Г­Г®Г±ГЁГІГҐГ«Гѕ Г­ГҐ Г®ГЎГҐГ±ГЇГҐГ·ГЁГўГ ГҐГІ, Г°Г Г§ГўГҐ Г·ГІГ® Г­ГҐ Г¤Г Г±ГІ Г§Г Г¬ВёГ°Г§Г­ГіГІГј Г­Г®Г·ГјГѕ ГЁ Г±Г¬&#255;ГЈГ·ГЁГІ ГіГЄГіГ± Г±Г«ГҐГЇГ®Г© Г±Г®ГЎГ ГЄГЁ. Г„Г®Г±ГІГ ГІГ®Г·Г­Г® Г­ГҐГіГ¤Г®ГЎГҐГ­, Г­Г®, ГІГҐГ¬ Г­ГҐ Г¬ГҐГ­ГҐГҐ, Г·Г Г±ГІГ® ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГІГ±&#255; ГЎГ Г­Г¤ГЁГІГ Г¬ГЁ - ГўГ®Г§Г¬Г®Г¦Г­Г®, ГЁГ±ГЄГ«ГѕГ·ГЁГІГҐГ«ГјГ­Г® ГЁГ§-Г§Г  ГўГ­ГҐГёГ­ГҐГЈГ® ГўГЁГ¤Г ."
 	eng_desc = "A regular brown leather trench coat. Has no special purpose other than to keep the wearer warm at night or protect from a blind dog bite. Although the trench coat is not particularly comfortable, it is often used by Bandits in the Zone - either because it allows them to hide in the dark or simply due to its \"cool\" appearance."
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/banditbrown
 
@@ -314,7 +314,7 @@
 
 /obj/item/clothing/suit/hooded/sealed
 	name = "test"
-	desc = "Костюм с сиемтой замкнутого дыхани&#255;."
+	desc = "ГЉГ®Г±ГІГѕГ¬ Г± Г±ГЁГҐГ¬ГІГ®Г© Г§Г Г¬ГЄГ­ГіГІГ®ГЈГ® Г¤Г»ГµГ Г­ГЁ&#255;."
 	eng_desc = "Sealed suit."
 	icon_state = "kombez"
 	item_state = "syndicate-green"
@@ -332,7 +332,7 @@
 	armor = list(melee = 90, bullet = 25, laser = 50,burn = 50, bomb = 30, bio = 50, rad = 50, electro = 50, psy = 0)
 	hoodtype = /obj/item/clothing/head/winterhood/stalker/sealed
 	durability = 200
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 /*
 /obj/item/clothing/head/winterhood/stalker/sealed
@@ -369,7 +369,7 @@
 
 /obj/item/clothing/suit/hooded/sealed/ecolog
 	name = "SSP-99"
-	desc = "Созданный дл&#255; работы в услови&#255;х Зоны костюм защиты ССП-99. Используетс&#255; экспедици&#255;ми учёных и сотрудничающих с ними сталкеров-экологов. Встроенна&#255; система фильтрации воздуха и кондиционировани&#255;. Не рассчитан на ведение боевых действий."
+	desc = "Г‘Г®Г§Г¤Г Г­Г­Г»Г© Г¤Г«&#255; Г°Г ГЎГ®ГІГ» Гў ГіГ±Г«Г®ГўГЁ&#255;Гµ Г‡Г®Г­Г» ГЄГ®Г±ГІГѕГ¬ Г§Г Г№ГЁГІГ» Г‘Г‘ГЏ-99. Г€Г±ГЇГ®Г«ГјГ§ГіГҐГІГ±&#255; ГЅГЄГ±ГЇГҐГ¤ГЁГ¶ГЁ&#255;Г¬ГЁ ГіГ·ВёГ­Г»Гµ ГЁ Г±Г®ГІГ°ГіГ¤Г­ГЁГ·Г ГѕГ№ГЁГµ Г± Г­ГЁГ¬ГЁ Г±ГІГ Г«ГЄГҐГ°Г®Гў-ГЅГЄГ®Г«Г®ГЈГ®Гў. Г‚Г±ГІГ°Г®ГҐГ­Г­Г &#255; Г±ГЁГ±ГІГҐГ¬Г  ГґГЁГ«ГјГІГ°Г Г¶ГЁГЁ ГўГ®Г§Г¤ГіГµГ  ГЁ ГЄГ®Г­Г¤ГЁГ¶ГЁГ®Г­ГЁГ°Г®ГўГ Г­ГЁ&#255;. ГЌГҐ Г°Г Г±Г±Г·ГЁГІГ Г­ Г­Г  ГўГҐГ¤ГҐГ­ГЁГҐ ГЎГ®ГҐГўГ»Гµ Г¤ГҐГ©Г±ГІГўГЁГ©."
 	eng_desc = "A SSP-99 chemical protection suit specially designed for the Zone conditions. It is used by scientific expeditions and the eco-stalkers who cooperate with them. It has an integrated air-filtering and air-conditioning system. It is heat and electricity resistant, provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments. It is not designed for combat, so it provides neither bullet, nor splinter protection."
 	icon_state = "ecolog"
 	item_state = "syndicate-orange"
@@ -400,7 +400,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/ecologm
 	name = "SSP-99M"
-	desc = "Высококачественный модифицированный комбинезон ССП-99. Добавлена защита торса от пулевого и осколочного повреждени&#255;. Предназначен дл&#255; экипировки охраны научных экспедиций. Эффективна&#255; защита от радиации и биологических аномалий. Стойкий к химически-агрессивным средам и другим вредным дл&#255; организма воздействи&#255;м."
+	desc = "Г‚Г»Г±Г®ГЄГ®ГЄГ Г·ГҐГ±ГІГўГҐГ­Г­Г»Г© Г¬Г®Г¤ГЁГґГЁГ¶ГЁГ°Г®ГўГ Г­Г­Г»Г© ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­ Г‘Г‘ГЏ-99. Г„Г®ГЎГ ГўГ«ГҐГ­Г  Г§Г Г№ГЁГІГ  ГІГ®Г°Г±Г  Г®ГІ ГЇГіГ«ГҐГўГ®ГЈГ® ГЁ Г®Г±ГЄГ®Г«Г®Г·Г­Г®ГЈГ® ГЇГ®ГўГ°ГҐГ¦Г¤ГҐГ­ГЁ&#255;. ГЏГ°ГҐГ¤Г­Г Г§Г­Г Г·ГҐГ­ Г¤Г«&#255; ГЅГЄГЁГЇГЁГ°Г®ГўГЄГЁ Г®ГµГ°Г Г­Г» Г­Г ГіГ·Г­Г»Гµ ГЅГЄГ±ГЇГҐГ¤ГЁГ¶ГЁГ©. ГќГґГґГҐГЄГІГЁГўГ­Г &#255; Г§Г Г№ГЁГІГ  Г®ГІ Г°Г Г¤ГЁГ Г¶ГЁГЁ ГЁ ГЎГЁГ®Г«Г®ГЈГЁГ·ГҐГ±ГЄГЁГµ Г Г­Г®Г¬Г Г«ГЁГ©. Г‘ГІГ®Г©ГЄГЁГ© ГЄ ГµГЁГ¬ГЁГ·ГҐГ±ГЄГЁ-Г ГЈГ°ГҐГ±Г±ГЁГўГ­Г»Г¬ Г±Г°ГҐГ¤Г Г¬ ГЁ Г¤Г°ГіГЈГЁГ¬ ГўГ°ГҐГ¤Г­Г»Г¬ Г¤Г«&#255; Г®Г°ГЈГ Г­ГЁГ§Г¬Г  ГўГ®Г§Г¤ГҐГ©Г±ГІГўГЁ&#255;Г¬."
 	eng_desc = "High quality modified SSP-99 suit. It provides increased body protection from bullet and splinter damage. It is designed for the guards working with scientific expeditions. It provides good protection from radiation and biological anomalies. It is resistant to chemically aggressive environments and other effects dangerous to the body."
 	icon_state = "ecologg"
 	item_state = "syndicate-green"
@@ -432,7 +432,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/seva
 	name = "SEVA"
-	desc = "Производимый одним из оборонных киевских НИИ данный комбинезон предоставл&#255;ет отличную альтернативу другим сталкеровским комбинезонам, изготовленным в кустарных услови&#255;х. Представл&#255;ет из себ&#255; отличное сочетание бронированного комбинезона, системы дыхани&#255; с замкнутым циклом, а также встроенной системой подавлени&#255; действи&#255; аномальных полей. За счёт удачного подбора материалов &#255;вл&#255;етс&#255; хорошим выбором. Единственный недостаток - его цена."
+	desc = "ГЏГ°Г®ГЁГ§ГўГ®Г¤ГЁГ¬Г»Г© Г®Г¤Г­ГЁГ¬ ГЁГ§ Г®ГЎГ®Г°Г®Г­Г­Г»Гµ ГЄГЁГҐГўГ±ГЄГЁГµ ГЌГ€Г€ Г¤Г Г­Г­Г»Г© ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­ ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«&#255;ГҐГІ Г®ГІГ«ГЁГ·Г­ГіГѕ Г Г«ГјГІГҐГ°Г­Г ГІГЁГўГі Г¤Г°ГіГЈГЁГ¬ Г±ГІГ Г«ГЄГҐГ°Г®ГўГ±ГЄГЁГ¬ ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­Г Г¬, ГЁГ§ГЈГ®ГІГ®ГўГ«ГҐГ­Г­Г»Г¬ Гў ГЄГіГ±ГІГ Г°Г­Г»Гµ ГіГ±Г«Г®ГўГЁ&#255;Гµ. ГЏГ°ГҐГ¤Г±ГІГ ГўГ«&#255;ГҐГІ ГЁГ§ Г±ГҐГЎ&#255; Г®ГІГ«ГЁГ·Г­Г®ГҐ Г±Г®Г·ГҐГІГ Г­ГЁГҐ ГЎГ°Г®Г­ГЁГ°Г®ГўГ Г­Г­Г®ГЈГ® ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­Г , Г±ГЁГ±ГІГҐГ¬Г» Г¤Г»ГµГ Г­ГЁ&#255; Г± Г§Г Г¬ГЄГ­ГіГІГ»Г¬ Г¶ГЁГЄГ«Г®Г¬, Г  ГІГ ГЄГ¦ГҐ ГўГ±ГІГ°Г®ГҐГ­Г­Г®Г© Г±ГЁГ±ГІГҐГ¬Г®Г© ГЇГ®Г¤Г ГўГ«ГҐГ­ГЁ&#255; Г¤ГҐГ©Г±ГІГўГЁ&#255; Г Г­Г®Г¬Г Г«ГјГ­Г»Гµ ГЇГ®Г«ГҐГ©. Г‡Г  Г±Г·ВёГІ ГіГ¤Г Г·Г­Г®ГЈГ® ГЇГ®Г¤ГЎГ®Г°Г  Г¬Г ГІГҐГ°ГЁГ Г«Г®Гў &#255;ГўГ«&#255;ГҐГІГ±&#255; ГµГ®Г°Г®ГёГЁГ¬ ГўГ»ГЎГ®Г°Г®Г¬. Г…Г¤ГЁГ­Г±ГІГўГҐГ­Г­Г»Г© Г­ГҐГ¤Г®Г±ГІГ ГІГ®ГЄ - ГҐГЈГ® Г¶ГҐГ­Г ."
 	eng_desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies. Due to poor protection from physical impact, the suit is not a good defense against bullet and fragmentation damage. It comes with a built-in artifact transportation container."
 	icon_state = "seva"
 	item_state = "syndicate-black"
@@ -472,7 +472,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/psz9md
 	name = "PSZ-9MD"
-	desc = "Отличный защитный костюм дл&#255; Зоны. Сталкеры цен&#255;т его за сочетание отличных противоаномальных качеств и противопулевой защиты. В составе: комбинезон ПСЗ-9д, система дыхани&#255; с замкнутым циклом, встроенна&#255; система подавлени&#255; действи&#255; аномальных полей. Предоставл&#255;ет качественную защиту от пулевого и осколочного попадани&#255;."
+	desc = "ГЋГІГ«ГЁГ·Г­Г»Г© Г§Г Г№ГЁГІГ­Г»Г© ГЄГ®Г±ГІГѕГ¬ Г¤Г«&#255; Г‡Г®Г­Г». Г‘ГІГ Г«ГЄГҐГ°Г» Г¶ГҐГ­&#255;ГІ ГҐГЈГ® Г§Г  Г±Г®Г·ГҐГІГ Г­ГЁГҐ Г®ГІГ«ГЁГ·Г­Г»Гµ ГЇГ°Г®ГІГЁГўГ®Г Г­Г®Г¬Г Г«ГјГ­Г»Гµ ГЄГ Г·ГҐГ±ГІГў ГЁ ГЇГ°Г®ГІГЁГўГ®ГЇГіГ«ГҐГўГ®Г© Г§Г Г№ГЁГІГ». Г‚ Г±Г®Г±ГІГ ГўГҐ: ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­ ГЏГ‘Г‡-9Г¤, Г±ГЁГ±ГІГҐГ¬Г  Г¤Г»ГµГ Г­ГЁ&#255; Г± Г§Г Г¬ГЄГ­ГіГІГ»Г¬ Г¶ГЁГЄГ«Г®Г¬, ГўГ±ГІГ°Г®ГҐГ­Г­Г &#255; Г±ГЁГ±ГІГҐГ¬Г  ГЇГ®Г¤Г ГўГ«ГҐГ­ГЁ&#255; Г¤ГҐГ©Г±ГІГўГЁ&#255; Г Г­Г®Г¬Г Г«ГјГ­Г»Гµ ГЇГ®Г«ГҐГ©. ГЏГ°ГҐГ¤Г®Г±ГІГ ГўГ«&#255;ГҐГІ ГЄГ Г·ГҐГ±ГІГўГҐГ­Г­ГіГѕ Г§Г Г№ГЁГІГі Г®ГІ ГЇГіГ«ГҐГўГ®ГЈГ® ГЁ Г®Г±ГЄГ®Г«Г®Г·Г­Г®ГЈГ® ГЇГ®ГЇГ Г¤Г Г­ГЁ&#255;."
 	eng_desc = "A wonderful protective suit for the Zone. Stalkers appreciate it because it combines excellent anomaly-proof and bullet-proof qualities. It includes the PSZ-9d suit, a closed cycle breathing system and an integrated system of anomalous field suppression. It provides quality bullet and splinter protection."
 	icon_state = "psz9md"
 	item_state = "syndicate-black-red"
@@ -506,7 +506,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/exoskelet
 	name = "exoskelet"
-	desc = "Экспериментальный образец военного экзоскелета. В серийное производство так и не попал, в виду чрезвычайной дороговизны и некоторых ошибок в проектировании. Не смотр&#255; на это, выпускаетс&#255; малыми парти&#255;ми на подпольных предпри&#255;ти&#255;х за пределами Украины. Данный экзоскелет относитс&#255; к третьему поколению. В нем устранены конструктивные недостатки, кардинально снижавшие подвижность, а также усилена брон&#255;. Предоставл&#255;ет великолепную защиту от пулевого и осколочного попадани&#255;, но не гарантирует стойкости к аномали&#255;м."
+	desc = "ГќГЄГ±ГЇГҐГ°ГЁГ¬ГҐГ­ГІГ Г«ГјГ­Г»Г© Г®ГЎГ°Г Г§ГҐГ¶ ГўГ®ГҐГ­Г­Г®ГЈГ® ГЅГЄГ§Г®Г±ГЄГҐГ«ГҐГІГ . Г‚ Г±ГҐГ°ГЁГ©Г­Г®ГҐ ГЇГ°Г®ГЁГ§ГўГ®Г¤Г±ГІГўГ® ГІГ ГЄ ГЁ Г­ГҐ ГЇГ®ГЇГ Г«, Гў ГўГЁГ¤Гі Г·Г°ГҐГ§ГўГ»Г·Г Г©Г­Г®Г© Г¤Г®Г°Г®ГЈГ®ГўГЁГ§Г­Г» ГЁ Г­ГҐГЄГ®ГІГ®Г°Г»Гµ Г®ГёГЁГЎГ®ГЄ Гў ГЇГ°Г®ГҐГЄГІГЁГ°Г®ГўГ Г­ГЁГЁ. ГЌГҐ Г±Г¬Г®ГІГ°&#255; Г­Г  ГЅГІГ®, ГўГ»ГЇГіГ±ГЄГ ГҐГІГ±&#255; Г¬Г Г«Г»Г¬ГЁ ГЇГ Г°ГІГЁ&#255;Г¬ГЁ Г­Г  ГЇГ®Г¤ГЇГ®Г«ГјГ­Г»Гµ ГЇГ°ГҐГ¤ГЇГ°ГЁ&#255;ГІГЁ&#255;Гµ Г§Г  ГЇГ°ГҐГ¤ГҐГ«Г Г¬ГЁ Г“ГЄГ°Г ГЁГ­Г». Г„Г Г­Г­Г»Г© ГЅГЄГ§Г®Г±ГЄГҐГ«ГҐГІ Г®ГІГ­Г®Г±ГЁГІГ±&#255; ГЄ ГІГ°ГҐГІГјГҐГ¬Гі ГЇГ®ГЄГ®Г«ГҐГ­ГЁГѕ. Г‚ Г­ГҐГ¬ ГіГ±ГІГ°Г Г­ГҐГ­Г» ГЄГ®Г­Г±ГІГ°ГіГЄГІГЁГўГ­Г»ГҐ Г­ГҐГ¤Г®Г±ГІГ ГІГЄГЁ, ГЄГ Г°Г¤ГЁГ­Г Г«ГјГ­Г® Г±Г­ГЁГ¦Г ГўГёГЁГҐ ГЇГ®Г¤ГўГЁГ¦Г­Г®Г±ГІГј, Г  ГІГ ГЄГ¦ГҐ ГіГ±ГЁГ«ГҐГ­Г  ГЎГ°Г®Г­&#255;. ГЏГ°ГҐГ¤Г®Г±ГІГ ГўГ«&#255;ГҐГІ ГўГҐГ«ГЁГЄГ®Г«ГҐГЇГ­ГіГѕ Г§Г Г№ГЁГІГі Г®ГІ ГЇГіГ«ГҐГўГ®ГЈГ® ГЁ Г®Г±ГЄГ®Г«Г®Г·Г­Г®ГЈГ® ГЇГ®ГЇГ Г¤Г Г­ГЁ&#255;, Г­Г® Г­ГҐ ГЈГ Г°Г Г­ГІГЁГ°ГіГҐГІ Г±ГІГ®Г©ГЄГ®Г±ГІГЁ ГЄ Г Г­Г®Г¬Г Г«ГЁ&#255;Г¬."
 	eng_desc = "An experimental sample of a military exoskeleton. Was never mass-produced due to extraordinary cost and some design flaws. Despite this, it is in demand due to its ability to take on the weight of all carried equipment, and therefore small batches are made in underground facilities outside Ukraine. Comes with a built-in artifact container."
 	icon_state = "exoskelet"
 	item_state = "syndicate-black"
@@ -531,7 +531,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/army
 	name = "army armor"
-	desc = "Стандартный армейский бронежилет, выдаваемый всем военнослужащим, охран&#255;ющим периметр Зоны. Предоставл&#255;ет неплохую защиту от пуль и холодного оружи&#255;, абсолютно непригоден дл&#255; вылазок вглубь Зоны, так как не имеет почти никакой защиты от воздействи&#255; аномальных полей."
+	desc = "Г‘ГІГ Г­Г¤Г Г°ГІГ­Г»Г© Г Г°Г¬ГҐГ©Г±ГЄГЁГ© ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІ, ГўГ»Г¤Г ГўГ ГҐГ¬Г»Г© ГўГ±ГҐГ¬ ГўГ®ГҐГ­Г­Г®Г±Г«ГіГ¦Г Г№ГЁГ¬, Г®ГµГ°Г Г­&#255;ГѕГ№ГЁГ¬ ГЇГҐГ°ГЁГ¬ГҐГІГ° Г‡Г®Г­Г». ГЏГ°ГҐГ¤Г®Г±ГІГ ГўГ«&#255;ГҐГІ Г­ГҐГЇГ«Г®ГµГіГѕ Г§Г Г№ГЁГІГі Г®ГІ ГЇГіГ«Гј ГЁ ГµГ®Г«Г®Г¤Г­Г®ГЈГ® Г®Г°ГіГ¦ГЁ&#255;, Г ГЎГ±Г®Г«ГѕГІГ­Г® Г­ГҐГЇГ°ГЁГЈГ®Г¤ГҐГ­ Г¤Г«&#255; ГўГ»Г«Г Г§Г®ГЄ ГўГЈГ«ГіГЎГј Г‡Г®Г­Г», ГІГ ГЄ ГЄГ ГЄ Г­ГҐ ГЁГ¬ГҐГҐГІ ГЇГ®Г·ГІГЁ Г­ГЁГЄГ ГЄГ®Г© Г§Г Г№ГЁГІГ» Г®ГІ ГўГ®Г§Г¤ГҐГ©Г±ГІГўГЁ&#255; Г Г­Г®Г¬Г Г«ГјГ­Г»Гµ ГЇГ®Г«ГҐГ©."
 	icon_state = "army_armor1"
 	item_state = "armor"
 	blood_overlay_type = "armor"
@@ -544,7 +544,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 30, bullet = 40, laser = 10,burn = 25, bomb = 10, bio = 0, rad = 15, electro = 25, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 125
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /*
@@ -557,7 +557,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/berill
 	name = "berill-5M"
-	desc = "Модифицированна&#255; дл&#255; работы в услови&#255;х Зоны, экипировка армейского спецназа."
+	desc = "ГЊГ®Г¤ГЁГґГЁГ¶ГЁГ°Г®ГўГ Г­Г­Г &#255; Г¤Г«&#255; Г°Г ГЎГ®ГІГ» Гў ГіГ±Г«Г®ГўГЁ&#255;Гµ Г‡Г®Г­Г», ГЅГЄГЁГЇГЁГ°Г®ГўГЄГ  Г Г°Г¬ГҐГ©Г±ГЄГ®ГЈГ® Г±ГЇГҐГ¶Г­Г Г§Г ."
 	eng_desc = "This item comprises military PS5 series body armor with beryllium sputter modified for use in the Zone. Designed for assault operations in highly radioactive areas, it is ineffective in areas of high anomalous activity. The suit makes its way to stalkers through the military, who exchange it for loot. Does not come with an artifact container."
 	icon_state = "berill_5m"
 	item_state = "syndicate-green"
@@ -570,12 +570,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 40, bullet = 60, laser = 30,burn = 30, bomb = 40, bio = 30, rad = 30, electro = 30, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 150
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/hooded/kombez/monolith
 	name = "monolith armor"
-	desc = "Комбинезон сталкера группировки 'Монолит'. Производитель неизвестен. По защитным характеристикам немного уступает армейскому бронежилету серии ПС3-9а. По структуре напоминает широко распространенные среди нейтральных сталкеров комбинезоны, в которых бронежилет соедин&#255;етс&#255; с костюмом противорадиационной защиты. Неплохо защищает от слабого стрелкового оружи&#255;. Уровень защиты от аномальной активности оставл&#255;ет желать лучшего из-за отсутстви&#255; системы фильтрации воздуха."
+	desc = "ГЉГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­ Г±ГІГ Г«ГЄГҐГ°Г  ГЈГ°ГіГЇГЇГЁГ°Г®ГўГЄГЁ 'ГЊГ®Г­Г®Г«ГЁГІ'. ГЏГ°Г®ГЁГ§ГўГ®Г¤ГЁГІГҐГ«Гј Г­ГҐГЁГ§ГўГҐГ±ГІГҐГ­. ГЏГ® Г§Г Г№ГЁГІГ­Г»Г¬ ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄГ Г¬ Г­ГҐГ¬Г­Г®ГЈГ® ГіГ±ГІГіГЇГ ГҐГІ Г Г°Г¬ГҐГ©Г±ГЄГ®Г¬Гі ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІГі Г±ГҐГ°ГЁГЁ ГЏГ‘3-9Г . ГЏГ® Г±ГІГ°ГіГЄГІГіГ°ГҐ Г­Г ГЇГ®Г¬ГЁГ­Г ГҐГІ ГёГЁГ°Г®ГЄГ® Г°Г Г±ГЇГ°Г®Г±ГІГ°Г Г­ГҐГ­Г­Г»ГҐ Г±Г°ГҐГ¤ГЁ Г­ГҐГ©ГІГ°Г Г«ГјГ­Г»Гµ Г±ГІГ Г«ГЄГҐГ°Г®Гў ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­Г», Гў ГЄГ®ГІГ®Г°Г»Гµ ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІ Г±Г®ГҐГ¤ГЁГ­&#255;ГҐГІГ±&#255; Г± ГЄГ®Г±ГІГѕГ¬Г®Г¬ ГЇГ°Г®ГІГЁГўГ®Г°Г Г¤ГЁГ Г¶ГЁГ®Г­Г­Г®Г© Г§Г Г№ГЁГІГ». ГЌГҐГЇГ«Г®ГµГ® Г§Г Г№ГЁГ№Г ГҐГІ Г®ГІ Г±Г«Г ГЎГ®ГЈГ® Г±ГІГ°ГҐГ«ГЄГ®ГўГ®ГЈГ® Г®Г°ГіГ¦ГЁ&#255;. Г“Г°Г®ГўГҐГ­Гј Г§Г Г№ГЁГІГ» Г®ГІ Г Г­Г®Г¬Г Г«ГјГ­Г®Г© Г ГЄГІГЁГўГ­Г®Г±ГІГЁ Г®Г±ГІГ ГўГ«&#255;ГҐГІ Г¦ГҐГ«Г ГІГј Г«ГіГ·ГёГҐГЈГ® ГЁГ§-Г§Г  Г®ГІГ±ГіГІГ±ГІГўГЁ&#255; Г±ГЁГ±ГІГҐГ¬Г» ГґГЁГ«ГјГІГ°Г Г¶ГЁГЁ ГўГ®Г§Г¤ГіГµГ ."
 	eng_desc = "Stalker suit from the Monolith faction. The producer is unknown. Its protective properties are slightly worse then those of the PSZ-9a military bulletproof vest. Its structure is similar to the suit popular with neutral stalkers which combines a bulletproof vest and a radiation protection suit. It provides good protection from gunfire. Its level of anomaly protection is low due to the absence of an air filtering system."
 	icon_state = "monolit"
 	item_state = "syndicate-green"
@@ -597,7 +597,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/monolith
 	name = "monolith scientific suit"
-	desc = "Производимый одним из оборонных киевских НИИ данный комбинезон предоставл&#255;ет отличную альтернативу другим сталкеровским комбинезонам, изготовленным в кустарных услови&#255;х. Представл&#255;ет из себ&#255; отличное сочетание бронированного комбинезона, системы дыхани&#255; с замкнутым циклом, а также встроенной системой подавлени&#255; действи&#255; аномальных полей. За счёт удачного подбора материалов &#255;вл&#255;етс&#255; хорошим выбором. Единственный недостаток - его цена."
+	desc = "ГЏГ°Г®ГЁГ§ГўГ®Г¤ГЁГ¬Г»Г© Г®Г¤Г­ГЁГ¬ ГЁГ§ Г®ГЎГ®Г°Г®Г­Г­Г»Гµ ГЄГЁГҐГўГ±ГЄГЁГµ ГЌГ€Г€ Г¤Г Г­Г­Г»Г© ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­ ГЇГ°ГҐГ¤Г®Г±ГІГ ГўГ«&#255;ГҐГІ Г®ГІГ«ГЁГ·Г­ГіГѕ Г Г«ГјГІГҐГ°Г­Г ГІГЁГўГі Г¤Г°ГіГЈГЁГ¬ Г±ГІГ Г«ГЄГҐГ°Г®ГўГ±ГЄГЁГ¬ ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­Г Г¬, ГЁГ§ГЈГ®ГІГ®ГўГ«ГҐГ­Г­Г»Г¬ Гў ГЄГіГ±ГІГ Г°Г­Г»Гµ ГіГ±Г«Г®ГўГЁ&#255;Гµ. ГЏГ°ГҐГ¤Г±ГІГ ГўГ«&#255;ГҐГІ ГЁГ§ Г±ГҐГЎ&#255; Г®ГІГ«ГЁГ·Г­Г®ГҐ Г±Г®Г·ГҐГІГ Г­ГЁГҐ ГЎГ°Г®Г­ГЁГ°Г®ГўГ Г­Г­Г®ГЈГ® ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­Г , Г±ГЁГ±ГІГҐГ¬Г» Г¤Г»ГµГ Г­ГЁ&#255; Г± Г§Г Г¬ГЄГ­ГіГІГ»Г¬ Г¶ГЁГЄГ«Г®Г¬, Г  ГІГ ГЄГ¦ГҐ ГўГ±ГІГ°Г®ГҐГ­Г­Г®Г© Г±ГЁГ±ГІГҐГ¬Г®Г© ГЇГ®Г¤Г ГўГ«ГҐГ­ГЁ&#255; Г¤ГҐГ©Г±ГІГўГЁ&#255; Г Г­Г®Г¬Г Г«ГјГ­Г»Гµ ГЇГ®Г«ГҐГ©. Г‡Г  Г±Г·ВёГІ ГіГ¤Г Г·Г­Г®ГЈГ® ГЇГ®Г¤ГЎГ®Г°Г  Г¬Г ГІГҐГ°ГЁГ Г«Г®Гў &#255;ГўГ«&#255;ГҐГІГ±&#255; ГµГ®Г°Г®ГёГЁГ¬ ГўГ»ГЎГ®Г°Г®Г¬. Г…Г¤ГЁГ­Г±ГІГўГҐГ­Г­Г»Г© Г­ГҐГ¤Г®Г±ГІГ ГІГ®ГЄ - ГҐГЈГ® Г¶ГҐГ­Г ."
 	eng_desc = "This bodysuit, intended for conducting research in the Zone, combines a closed-cycle respiratory module and an external isolation coating, resulting in excellent protection from anomalies. Due to poor protection from physical impact, the suit is not a good defense against bullet and fragmentation damage. It comes with a built-in artifact transportation container."
 	icon_state = "monolith_scientific"
 	item_state = "syndicate-green"
@@ -625,7 +625,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/skat
 	name = "SKAT-M9"
-	desc = "Армейский бронекостюм СКАТ-9М создан дл&#255; проведени&#255; штурмовых операций в зонах активности аномалий. В составе: т&#255;жёлый армейский бронекостюм серии ПС3-12п, встроенный компенсационный костюм. Предоставл&#255;ет великолепную защиту от пулевого и осколочного попадани&#255;, при этом не снижа&#255; подвижности солдата. В наличии сбалансированна&#255; система защиты от аномального воздействи&#255;."
+	desc = "ГЂГ°Г¬ГҐГ©Г±ГЄГЁГ© ГЎГ°Г®Г­ГҐГЄГ®Г±ГІГѕГ¬ Г‘ГЉГЂГ’-9ГЊ Г±Г®Г§Г¤Г Г­ Г¤Г«&#255; ГЇГ°Г®ГўГҐГ¤ГҐГ­ГЁ&#255; ГёГІГіГ°Г¬Г®ГўГ»Гµ Г®ГЇГҐГ°Г Г¶ГЁГ© Гў Г§Г®Г­Г Гµ Г ГЄГІГЁГўГ­Г®Г±ГІГЁ Г Г­Г®Г¬Г Г«ГЁГ©. Г‚ Г±Г®Г±ГІГ ГўГҐ: ГІ&#255;Г¦ВёГ«Г»Г© Г Г°Г¬ГҐГ©Г±ГЄГЁГ© ГЎГ°Г®Г­ГҐГЄГ®Г±ГІГѕГ¬ Г±ГҐГ°ГЁГЁ ГЏГ‘3-12ГЇ, ГўГ±ГІГ°Г®ГҐГ­Г­Г»Г© ГЄГ®Г¬ГЇГҐГ­Г±Г Г¶ГЁГ®Г­Г­Г»Г© ГЄГ®Г±ГІГѕГ¬. ГЏГ°ГҐГ¤Г®Г±ГІГ ГўГ«&#255;ГҐГІ ГўГҐГ«ГЁГЄГ®Г«ГҐГЇГ­ГіГѕ Г§Г Г№ГЁГІГі Г®ГІ ГЇГіГ«ГҐГўГ®ГЈГ® ГЁ Г®Г±ГЄГ®Г«Г®Г·Г­Г®ГЈГ® ГЇГ®ГЇГ Г¤Г Г­ГЁ&#255;, ГЇГ°ГЁ ГЅГІГ®Г¬ Г­ГҐ Г±Г­ГЁГ¦Г &#255; ГЇГ®Г¤ГўГЁГ¦Г­Г®Г±ГІГЁ Г±Г®Г«Г¤Г ГІГ . Г‚ Г­Г Г«ГЁГ·ГЁГЁ Г±ГЎГ Г«Г Г­Г±ГЁГ°Г®ГўГ Г­Г­Г &#255; Г±ГЁГ±ГІГҐГ¬Г  Г§Г Г№ГЁГІГ» Г®ГІ Г Г­Г®Г¬Г Г«ГјГ­Г®ГЈГ® ГўГ®Г§Г¤ГҐГ©Г±ГІГўГЁ&#255;."
 	eng_desc = "This Skat-9M bulletproof military suit is designed for assault operations in areas of anomalous activity. It includes a PSZ-12p heavy military bulletproof suit, an integrated compensation suit and a Sphere-12M helmet. It provides perfect protection from bullets and splinters and it doesn't decrease the soldier's mobility. It has a balanced system of anomaly protection."
 	icon_state = "skat"
 	item_state = "syndicate-black"
@@ -639,12 +639,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	unacidable = 1
 	armor = list(melee = 60, bullet = 70, laser = 60,burn = 50, bomb = 70, bio = 35, rad = 35, electro = 50, psy = 0)
 	durability = 200
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/hooded/kombez/ps5m
 	name = "PS5-M"
-	desc = "Современна&#255; модель комбинезона Долга. Больше подходит новобранцам из сталкеров, которые привыкли к относительно легким костюмам. В отличие от ПСЗ, обеспечивает хорошую защиту от аномального воздействи&#255; и при этом способен остановить пистолетную пулю и некоторые автоматные пули."
+	desc = "Г‘Г®ГўГ°ГҐГ¬ГҐГ­Г­Г &#255; Г¬Г®Г¤ГҐГ«Гј ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­Г  Г„Г®Г«ГЈГ . ГЃГ®Г«ГјГёГҐ ГЇГ®Г¤ГµГ®Г¤ГЁГІ Г­Г®ГўГ®ГЎГ°Г Г­Г¶Г Г¬ ГЁГ§ Г±ГІГ Г«ГЄГҐГ°Г®Гў, ГЄГ®ГІГ®Г°Г»ГҐ ГЇГ°ГЁГўГ»ГЄГ«ГЁ ГЄ Г®ГІГ­Г®Г±ГЁГІГҐГ«ГјГ­Г® Г«ГҐГЈГЄГЁГ¬ ГЄГ®Г±ГІГѕГ¬Г Г¬. Г‚ Г®ГІГ«ГЁГ·ГЁГҐ Г®ГІ ГЏГ‘Г‡, Г®ГЎГҐГ±ГЇГҐГ·ГЁГўГ ГҐГІ ГµГ®Г°Г®ГёГіГѕ Г§Г Г№ГЁГІГі Г®ГІ Г Г­Г®Г¬Г Г«ГјГ­Г®ГЈГ® ГўГ®Г§Г¤ГҐГ©Г±ГІГўГЁ&#255; ГЁ ГЇГ°ГЁ ГЅГІГ®Г¬ Г±ГЇГ®Г±Г®ГЎГҐГ­ Г®Г±ГІГ Г­Г®ГўГЁГІГј ГЇГЁГ±ГІГ®Г«ГҐГІГ­ГіГѕ ГЇГіГ«Гѕ ГЁ Г­ГҐГЄГ®ГІГ®Г°Г»ГҐ Г ГўГІГ®Г¬Г ГІГ­Г»ГҐ ГЇГіГ«ГЁ."
 	eng_desc = "This modern version of the Duty bodysuit is better suited for stalker recruits who are used to lightweight suits. Unlike the PSZ series, this suit provides good protection against anomalies while also being capable of stopping a pistol bullet. The suit cannot be modified with an artifact container, but may be upgraded with a combat support system instead."
 	icon_state = "ps5m"
 	item_state = "syndicate-black-red"
@@ -667,7 +667,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/psz9d
 	name = "PSZ-9D"
-	desc = "Современна&#255; модель боевой брони Долга. Отлично подходит дл&#255; часто вступающих в перестрелки членов группировки. В отличие от ПС5, имеет многочисленные циркониевые защитные пластины в нагруднике, способные остановить автоматную пулю на излете."
+	desc = "Г‘Г®ГўГ°ГҐГ¬ГҐГ­Г­Г &#255; Г¬Г®Г¤ГҐГ«Гј ГЎГ®ГҐГўГ®Г© ГЎГ°Г®Г­ГЁ Г„Г®Г«ГЈГ . ГЋГІГ«ГЁГ·Г­Г® ГЇГ®Г¤ГµГ®Г¤ГЁГІ Г¤Г«&#255; Г·Г Г±ГІГ® ГўГ±ГІГіГЇГ ГѕГ№ГЁГµ Гў ГЇГҐГ°ГҐГ±ГІГ°ГҐГ«ГЄГЁ Г·Г«ГҐГ­Г®Гў ГЈГ°ГіГЇГЇГЁГ°Г®ГўГЄГЁ. Г‚ Г®ГІГ«ГЁГ·ГЁГҐ Г®ГІ ГЏГ‘5, ГЁГ¬ГҐГҐГІ Г¬Г­Г®ГЈГ®Г·ГЁГ±Г«ГҐГ­Г­Г»ГҐ Г¶ГЁГ°ГЄГ®Г­ГЁГҐГўГ»ГҐ Г§Г Г№ГЁГІГ­Г»ГҐ ГЇГ«Г Г±ГІГЁГ­Г» Гў Г­Г ГЈГ°ГіГ¤Г­ГЁГЄГҐ, Г±ГЇГ®Г±Г®ГЎГ­Г»ГҐ Г®Г±ГІГ Г­Г®ГўГЁГІГј Г ГўГІГ®Г¬Г ГІГ­ГіГѕ ГЇГіГ«Гѕ Г­Г  ГЁГ§Г«ГҐГІГҐ."
 	eng_desc = "Produced by one of Kiev's defence research institutes and commissioned by the Duty faction. It is as simple and reliable as the standard PSZ-9 model, but due to the new materials, it provides good protection from various harmful impacts, including firearm damage. The vest still needs some work because it has no breathing protection system."
 	icon_state = "psz9d"
 	item_state = "syndicate-black"
@@ -681,12 +681,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	unacidable = 1
 	armor = list(melee = 75, bullet = 65, laser = 50,burn = 40, bomb = 80, bio = 35, rad = 45, electro = 40, psy = 0)
 	durability = 200
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/hooded/kombez/mercenary
 	name = "mercenary armor"
-	desc = "Комбинезон сталкера из группировки 'Наёмники'. За основу вз&#255;ты образцы экипировки спецназа западных армий. За счёт специальной обработки ткани усилена устойчивость брони при физическом смещении пластин. По защитным характеристикам немного превосходит армейские бронежилеты серии ПС3-7."
+	desc = "ГЉГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­ Г±ГІГ Г«ГЄГҐГ°Г  ГЁГ§ ГЈГ°ГіГЇГЇГЁГ°Г®ГўГЄГЁ 'ГЌГ ВёГ¬Г­ГЁГЄГЁ'. Г‡Г  Г®Г±Г­Г®ГўГі ГўГ§&#255;ГІГ» Г®ГЎГ°Г Г§Г¶Г» ГЅГЄГЁГЇГЁГ°Г®ГўГЄГЁ Г±ГЇГҐГ¶Г­Г Г§Г  Г§Г ГЇГ Г¤Г­Г»Гµ Г Г°Г¬ГЁГ©. Г‡Г  Г±Г·ВёГІ Г±ГЇГҐГ¶ГЁГ Г«ГјГ­Г®Г© Г®ГЎГ°Г ГЎГ®ГІГЄГЁ ГІГЄГ Г­ГЁ ГіГ±ГЁГ«ГҐГ­Г  ГіГ±ГІГ®Г©Г·ГЁГўГ®Г±ГІГј ГЎГ°Г®Г­ГЁ ГЇГ°ГЁ ГґГЁГ§ГЁГ·ГҐГ±ГЄГ®Г¬ Г±Г¬ГҐГ№ГҐГ­ГЁГЁ ГЇГ«Г Г±ГІГЁГ­. ГЏГ® Г§Г Г№ГЁГІГ­Г»Г¬ ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄГ Г¬ Г­ГҐГ¬Г­Г®ГЈГ® ГЇГ°ГҐГўГ®Г±ГµГ®Г¤ГЁГІ Г Г°Г¬ГҐГ©Г±ГЄГЁГҐ ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІГ» Г±ГҐГ°ГЁГЁ ГЏГ‘3-7."
 	eng_desc = "Stalker suit from the Merc faction. Its design is based on the suit used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof suits."
 	icon_state = "mercenary"
 	item_state = "syndicate-black"
@@ -709,7 +709,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/kombez/veter
 	name = "wind of freedom"
-	desc = "Производимый ремесленниками группировки «Свобода» облегченный комбинезон сталкера. Легкий армейский бронежилет плюс накладные усиливающие кевларовые элементы. Способен защитить от слабого стрелкового оружи&#255;. Ткань костюма обработана специальным составом, повышающим сопротивление аномальной активности."
+	desc = "ГЏГ°Г®ГЁГ§ГўГ®Г¤ГЁГ¬Г»Г© Г°ГҐГ¬ГҐГ±Г«ГҐГ­Г­ГЁГЄГ Г¬ГЁ ГЈГ°ГіГЇГЇГЁГ°Г®ГўГЄГЁ В«Г‘ГўГ®ГЎГ®Г¤Г В» Г®ГЎГ«ГҐГЈГ·ГҐГ­Г­Г»Г© ГЄГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­ Г±ГІГ Г«ГЄГҐГ°Г . Г‹ГҐГЈГЄГЁГ© Г Г°Г¬ГҐГ©Г±ГЄГЁГ© ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІ ГЇГ«ГѕГ± Г­Г ГЄГ«Г Г¤Г­Г»ГҐ ГіГ±ГЁГ«ГЁГўГ ГѕГ№ГЁГҐ ГЄГҐГўГ«Г Г°Г®ГўГ»ГҐ ГЅГ«ГҐГ¬ГҐГ­ГІГ». Г‘ГЇГ®Г±Г®ГЎГҐГ­ Г§Г Г№ГЁГІГЁГІГј Г®ГІ Г±Г«Г ГЎГ®ГЈГ® Г±ГІГ°ГҐГ«ГЄГ®ГўГ®ГЈГ® Г®Г°ГіГ¦ГЁ&#255;. Г’ГЄГ Г­Гј ГЄГ®Г±ГІГѕГ¬Г  Г®ГЎГ°Г ГЎГ®ГІГ Г­Г  Г±ГЇГҐГ¶ГЁГ Г«ГјГ­Г»Г¬ Г±Г®Г±ГІГ ГўГ®Г¬, ГЇГ®ГўГ»ГёГ ГѕГ№ГЁГ¬ Г±Г®ГЇГ°Г®ГІГЁГўГ«ГҐГ­ГЁГҐ Г Г­Г®Г¬Г Г«ГјГ­Г®Г© Г ГЄГІГЁГўГ­Г®Г±ГІГЁ."
 	eng_desc = "This lightweight stalker bodysuit is made by Freedom craftsmen. The suit's fabric is treated with Horizon, a special solution developed by the faction by trial and error to increase resistance to anomalies. Like the Sunrise suit, the Wind of Freedom comes with built-in body armor and artifact containers."
 	icon_state = "veter"
 	item_state = "syndicate-green"
@@ -732,7 +732,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/strazh
 	name = "guardian of freedom"
-	desc = "Модифицированна&#255; дл&#255; работы в услови&#255;х Зоны, экипировка армейского спецназа. Покрашенна&#255; в &#255;ркий камуфл&#255;ж Свободы и облегченна&#255; дл&#255; улучшени&#255; подвижности, эта верси&#255; Берилла была обработана специальными реагентами, ослабл&#255;ющими вред от аномальных угроз."
+	desc = "ГЊГ®Г¤ГЁГґГЁГ¶ГЁГ°Г®ГўГ Г­Г­Г &#255; Г¤Г«&#255; Г°Г ГЎГ®ГІГ» Гў ГіГ±Г«Г®ГўГЁ&#255;Гµ Г‡Г®Г­Г», ГЅГЄГЁГЇГЁГ°Г®ГўГЄГ  Г Г°Г¬ГҐГ©Г±ГЄГ®ГЈГ® Г±ГЇГҐГ¶Г­Г Г§Г . ГЏГ®ГЄГ°Г ГёГҐГ­Г­Г &#255; Гў &#255;Г°ГЄГЁГ© ГЄГ Г¬ГіГґГ«&#255;Г¦ Г‘ГўГ®ГЎГ®Г¤Г» ГЁ Г®ГЎГ«ГҐГЈГ·ГҐГ­Г­Г &#255; Г¤Г«&#255; ГіГ«ГіГ·ГёГҐГ­ГЁ&#255; ГЇГ®Г¤ГўГЁГ¦Г­Г®Г±ГІГЁ, ГЅГІГ  ГўГҐГ°Г±ГЁ&#255; ГЃГҐГ°ГЁГ«Г«Г  ГЎГ»Г«Г  Г®ГЎГ°Г ГЎГ®ГІГ Г­Г  Г±ГЇГҐГ¶ГЁГ Г«ГјГ­Г»Г¬ГЁ Г°ГҐГ ГЈГҐГ­ГІГ Г¬ГЁ, Г®Г±Г«Г ГЎГ«&#255;ГѕГ№ГЁГ¬ГЁ ГўГ°ГҐГ¤ Г®ГІ Г Г­Г®Г¬Г Г«ГјГ­Г»Гµ ГіГЈГ°Г®Г§."
 	eng_desc = "This stalker bodysuit with reinforced body armor made by Freedom craftsmen represents a good compromise between combat and anomaly protection. The built-in body armor comprises armor plating and ten Kevlar layers, capable of stopping a pistol bullet. The suit uses the relatively expensive Sovereign compound for anomaly protection. Comes with an artifact container."
 	icon_state = "strazh"
 	item_state = "syndicate-green"
@@ -745,12 +745,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 50, bullet = 50, laser = 30,burn = 50, bomb = 40, bio = 50, rad = 40, electro = 50, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 150
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/assaultmerc
 	name = "mercenary heavy armor"
-	desc = "Т&#255;жела&#255; комбинированна&#255; брон&#255;, включающа&#255; в себ&#255; многослойный баллистический жилет с воротником и защитой предплечий, а также по паре неопреново-пластиковых наручей и наголенников дл&#255; защиты от укусов местной живности. Вы не уверены, что такой костюм хорошо защитит от аномалий, но дл&#255; условий зоны сложно найти боевую броню получше."
+	desc = "Г’&#255;Г¦ГҐГ«Г &#255; ГЄГ®Г¬ГЎГЁГ­ГЁГ°Г®ГўГ Г­Г­Г &#255; ГЎГ°Г®Г­&#255;, ГўГЄГ«ГѕГ·Г ГѕГ№Г &#255; Гў Г±ГҐГЎ&#255; Г¬Г­Г®ГЈГ®Г±Г«Г®Г©Г­Г»Г© ГЎГ Г«Г«ГЁГ±ГІГЁГ·ГҐГ±ГЄГЁГ© Г¦ГЁГ«ГҐГІ Г± ГўГ®Г°Г®ГІГ­ГЁГЄГ®Г¬ ГЁ Г§Г Г№ГЁГІГ®Г© ГЇГ°ГҐГ¤ГЇГ«ГҐГ·ГЁГ©, Г  ГІГ ГЄГ¦ГҐ ГЇГ® ГЇГ Г°ГҐ Г­ГҐГ®ГЇГ°ГҐГ­Г®ГўГ®-ГЇГ«Г Г±ГІГЁГЄГ®ГўГ»Гµ Г­Г Г°ГіГ·ГҐГ© ГЁ Г­Г ГЈГ®Г«ГҐГ­Г­ГЁГЄГ®Гў Г¤Г«&#255; Г§Г Г№ГЁГІГ» Г®ГІ ГіГЄГіГ±Г®Гў Г¬ГҐГ±ГІГ­Г®Г© Г¦ГЁГўГ­Г®Г±ГІГЁ. Г‚Г» Г­ГҐ ГіГўГҐГ°ГҐГ­Г», Г·ГІГ® ГІГ ГЄГ®Г© ГЄГ®Г±ГІГѕГ¬ ГµГ®Г°Г®ГёГ® Г§Г Г№ГЁГІГЁГІ Г®ГІ Г Г­Г®Г¬Г Г«ГЁГ©, Г­Г® Г¤Г«&#255; ГіГ±Г«Г®ГўГЁГ© Г§Г®Г­Г» Г±Г«Г®Г¦Г­Г® Г­Г Г©ГІГЁ ГЎГ®ГҐГўГіГѕ ГЎГ°Г®Г­Гѕ ГЇГ®Г«ГіГ·ГёГҐ."
 	icon_state = "assaultmerc"
 	item_state = "syndicate-black"
 	blood_overlay_type = "armor"
@@ -762,12 +762,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 50, bullet = 65, laser = 40,burn = 20, bomb = 80, bio = 20, rad = 25, electro = 20, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 250
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/hooded/kombez/kombez_bandit
 	name = "bandit armor"
-	desc = "Комбинезон сталкера из группировки 'Бандиты'. За основу вз&#255;ты образцы экипировки спецназа западных армий. За счёт специальной обработки ткани усилена устойчивость брони при физическом смещении пластин. По защитным характеристикам немного превосходит армейские бронежилеты серии ПС3-7."
+	desc = "ГЉГ®Г¬ГЎГЁГ­ГҐГ§Г®Г­ Г±ГІГ Г«ГЄГҐГ°Г  ГЁГ§ ГЈГ°ГіГЇГЇГЁГ°Г®ГўГЄГЁ 'ГЃГ Г­Г¤ГЁГІГ»'. Г‡Г  Г®Г±Г­Г®ГўГі ГўГ§&#255;ГІГ» Г®ГЎГ°Г Г§Г¶Г» ГЅГЄГЁГЇГЁГ°Г®ГўГЄГЁ Г±ГЇГҐГ¶Г­Г Г§Г  Г§Г ГЇГ Г¤Г­Г»Гµ Г Г°Г¬ГЁГ©. Г‡Г  Г±Г·ВёГІ Г±ГЇГҐГ¶ГЁГ Г«ГјГ­Г®Г© Г®ГЎГ°Г ГЎГ®ГІГЄГЁ ГІГЄГ Г­ГЁ ГіГ±ГЁГ«ГҐГ­Г  ГіГ±ГІГ®Г©Г·ГЁГўГ®Г±ГІГј ГЎГ°Г®Г­ГЁ ГЇГ°ГЁ ГґГЁГ§ГЁГ·ГҐГ±ГЄГ®Г¬ Г±Г¬ГҐГ№ГҐГ­ГЁГЁ ГЇГ«Г Г±ГІГЁГ­. ГЏГ® Г§Г Г№ГЁГІГ­Г»Г¬ ГµГ Г°Г ГЄГІГҐГ°ГЁГ±ГІГЁГЄГ Г¬ Г­ГҐГ¬Г­Г®ГЈГ® ГЇГ°ГҐГўГ®Г±ГµГ®Г¤ГЁГІ Г Г°Г¬ГҐГ©Г±ГЄГЁГҐ ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІГ» Г±ГҐГ°ГЁГЁ ГЏГ‘3-7."
 	eng_desc = "Stalker suit from the Bandits faction. Its design is based on the suit used by the special forces of the Western armies. Due to a special treatment of the fabric, the armor has a strengthened stability during the physical movement of its plates. Its protective properties are slightly better then those of the PSZ-7 military bulletproof suits."
 	icon_state = "combez_bandit"
 	item_state = "syndicate-orange"
@@ -791,7 +791,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/kombez/mercenary/leader
 	name = "mercenary leader armor"
-	desc = "Обычна&#255; брон&#255; наемника с наброшенным поверх плащом в весьма потрепанном состо&#255;нии. Вы задумываетесь, почему никто другой не додумалс&#255; ранее носить плащ поверх легкой брони... неужели этому что-то мешает?"
+	desc = "ГЋГЎГ»Г·Г­Г &#255; ГЎГ°Г®Г­&#255; Г­Г ГҐГ¬Г­ГЁГЄГ  Г± Г­Г ГЎГ°Г®ГёГҐГ­Г­Г»Г¬ ГЇГ®ГўГҐГ°Гµ ГЇГ«Г Г№Г®Г¬ Гў ГўГҐГ±ГјГ¬Г  ГЇГ®ГІГ°ГҐГЇГ Г­Г­Г®Г¬ Г±Г®Г±ГІГ®&#255;Г­ГЁГЁ. Г‚Г» Г§Г Г¤ГіГ¬Г»ГўГ ГҐГІГҐГ±Гј, ГЇГ®Г·ГҐГ¬Гі Г­ГЁГЄГІГ® Г¤Г°ГіГЈГ®Г© Г­ГҐ Г¤Г®Г¤ГіГ¬Г Г«Г±&#255; Г°Г Г­ГҐГҐ Г­Г®Г±ГЁГІГј ГЇГ«Г Г№ ГЇГ®ГўГҐГ°Гµ Г«ГҐГЈГЄГ®Г© ГЎГ°Г®Г­ГЁ... Г­ГҐГіГ¦ГҐГ«ГЁ ГЅГІГ®Г¬Гі Г·ГІГ®-ГІГ® Г¬ГҐГёГ ГҐГІ?"
 	icon_state = "mercleader"
 	item_state = "syndicate-black"
 	body_parts_covered = CHEST|GROIN|LEGS|FEET|ARMS|HANDS
@@ -807,7 +807,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/metro/banditsheavyarmor
 	name = "Heavy Armor"
-	desc = "Наиболее распространённа&#255; в метро модель т&#255;жёлой баллистической брони, впервые по&#255;вивша&#255;с&#255; на Кузнецкой. Благодар&#255; своим качествам(ака надёжность, дешевизна и лёгкость починки), уже в первые мес&#255;цы приобрела огромную попул&#255;рность среди бандитов и прочих обитателей метро."
+	desc = "ГЌГ ГЁГЎГ®Г«ГҐГҐ Г°Г Г±ГЇГ°Г®Г±ГІГ°Г Г­ВёГ­Г­Г &#255; Гў Г¬ГҐГІГ°Г® Г¬Г®Г¤ГҐГ«Гј ГІ&#255;Г¦ВёГ«Г®Г© ГЎГ Г«Г«ГЁГ±ГІГЁГ·ГҐГ±ГЄГ®Г© ГЎГ°Г®Г­ГЁ, ГўГЇГҐГ°ГўГ»ГҐ ГЇГ®&#255;ГўГЁГўГёГ &#255;Г±&#255; Г­Г  ГЉГіГ§Г­ГҐГ¶ГЄГ®Г©. ГЃГ«Г ГЈГ®Г¤Г Г°&#255; Г±ГўГ®ГЁГ¬ ГЄГ Г·ГҐГ±ГІГўГ Г¬(Г ГЄГ  Г­Г Г¤ВёГ¦Г­Г®Г±ГІГј, Г¤ГҐГёГҐГўГЁГ§Г­Г  ГЁ Г«ВёГЈГЄГ®Г±ГІГј ГЇГ®Г·ГЁГ­ГЄГЁ), ГіГ¦ГҐ Гў ГЇГҐГ°ГўГ»ГҐ Г¬ГҐГ±&#255;Г¶Г» ГЇГ°ГЁГ®ГЎГ°ГҐГ«Г  Г®ГЈГ°Г®Г¬Г­ГіГѕ ГЇГ®ГЇГіГ«&#255;Г°Г­Г®Г±ГІГј Г±Г°ГҐГ¤ГЁ ГЎГ Г­Г¤ГЁГІГ®Гў ГЁ ГЇГ°Г®Г·ГЁГµ Г®ГЎГЁГІГ ГІГҐГ«ГҐГ© Г¬ГҐГІГ°Г®."
 	eng_desc = "Heavy ballistic armor"
 	icon_state = "heavyarmor"
 	item_state = "heavyarmor"
@@ -820,12 +820,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 40, bullet = 70, laser = 0,burn = 30, bomb = 50, bio = 30, rad = 0, electro = 10, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 200
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/metro/banditduster
 	name = "Bandits Duster"
-	desc = "Лёгкий, не особо хорошо защищающий плащ, с парой металлических плат и встроенной разгрузкой. Такой часто используют контрабандисты."
+	desc = "Г‹ВёГЈГЄГЁГ©, Г­ГҐ Г®Г±Г®ГЎГ® ГµГ®Г°Г®ГёГ® Г§Г Г№ГЁГ№Г ГѕГ№ГЁГ© ГЇГ«Г Г№, Г± ГЇГ Г°Г®Г© Г¬ГҐГІГ Г«Г«ГЁГ·ГҐГ±ГЄГЁГµ ГЇГ«Г ГІ ГЁ ГўГ±ГІГ°Г®ГҐГ­Г­Г®Г© Г°Г Г§ГЈГ°ГіГ§ГЄГ®Г©. Г’Г ГЄГ®Г© Г·Г Г±ГІГ® ГЁГ±ГЇГ®Г«ГјГ§ГіГѕГІ ГЄГ®Г­ГІГ°Г ГЎГ Г­Г¤ГЁГ±ГІГ»."
 	eng_desc = "Duster"
 	icon_state = "bumcoat"
 	item_state = "bumcoat"
@@ -838,12 +838,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 20, bullet = 30, laser = 0,burn = 10, bomb = 0, bio = 0, rad = 0, electro = 0, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 70
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/metro/armvestlight
 	name = "Armored vest"
-	desc = "Лёгкий бронежилет, сделанный из подручных материалов. В нём виднеетс&#255; пара дыр."
+	desc = "Г‹ВёГЈГЄГЁГ© ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІ, Г±Г¤ГҐГ«Г Г­Г­Г»Г© ГЁГ§ ГЇГ®Г¤Г°ГіГ·Г­Г»Гµ Г¬Г ГІГҐГ°ГЁГ Г«Г®Гў. Г‚ Г­ВёГ¬ ГўГЁГ¤Г­ГҐГҐГІГ±&#255; ГЇГ Г°Г  Г¤Г»Г°."
 	eng_desc = "Light armored vest"
 	icon_state = "insecure"
 	item_state = "insecure"
@@ -856,12 +856,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 20, bullet = 20, laser = 0,burn = 20, bomb = 20, bio = 0, rad = 0, electro = 0, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 80
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/metro/armveststandart
 	name = "Millitary armored vest"
-	desc = "Общевойсковый, средне-надёжный бронежилет. Один из тех немногих экземпл&#255;, что уцелели после &#255;дерных ударов. Раритет, имеет встроенную разгрузку. Сделан из достаточно хорошо гор&#255;щего материала."
+	desc = "ГЋГЎГ№ГҐГўГ®Г©Г±ГЄГ®ГўГ»Г©, Г±Г°ГҐГ¤Г­ГҐ-Г­Г Г¤ВёГ¦Г­Г»Г© ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІ. ГЋГ¤ГЁГ­ ГЁГ§ ГІГҐГµ Г­ГҐГ¬Г­Г®ГЈГЁГµ ГЅГЄГ§ГҐГ¬ГЇГ«&#255;, Г·ГІГ® ГіГ¶ГҐГ«ГҐГ«ГЁ ГЇГ®Г±Г«ГҐ &#255;Г¤ГҐГ°Г­Г»Гµ ГіГ¤Г Г°Г®Гў. ГђГ Г°ГЁГІГҐГІ, ГЁГ¬ГҐГҐГІ ГўГ±ГІГ°Г®ГҐГ­Г­ГіГѕ Г°Г Г§ГЈГ°ГіГ§ГЄГі. Г‘Г¤ГҐГ«Г Г­ ГЁГ§ Г¤Г®Г±ГІГ ГІГ®Г·Г­Г® ГµГ®Г°Г®ГёГ® ГЈГ®Г°&#255;Г№ГҐГЈГ® Г¬Г ГІГҐГ°ГЁГ Г«Г ."
 	eng_desc = "Millitary armored vest"
 	icon_state = "opvest"
 	item_state = "opvest"
@@ -874,12 +874,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 40, bullet = 60, laser = 0,burn = 0, bomb = 50, bio = 0, rad = 0, electro = 0, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 180
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/metro/armvestmedium
 	name = "Armored vest"
-	desc = "Средний бронежилет, сделанный из подручных материалов. Выгл&#255;дит достаточно надёжно."
+	desc = "Г‘Г°ГҐГ¤Г­ГЁГ© ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІ, Г±Г¤ГҐГ«Г Г­Г­Г»Г© ГЁГ§ ГЇГ®Г¤Г°ГіГ·Г­Г»Гµ Г¬Г ГІГҐГ°ГЁГ Г«Г®Гў. Г‚Г»ГЈГ«&#255;Г¤ГЁГІ Г¤Г®Г±ГІГ ГІГ®Г·Г­Г® Г­Г Г¤ВёГ¦Г­Г®."
 	eng_desc = "Armored vest"
 	icon_state = "bulletproofvest"
 	item_state = "bulletproofvest"
@@ -892,12 +892,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 30, bullet = 40, laser = 0,burn = 20, bomb = 30, bio = 0, rad = 0, electro = 0, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 150
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/metro/puffer
 	name = "Grey jacket"
-	desc = "Довоенная, к удивлению хорошо сохранившаяся куртка. От пуль не защитит, да и не от чего другого. Но зато в ней тепло."
+	desc = "Г„Г®ГўГ®ГҐГ­Г­Г Гї, ГЄ ГіГ¤ГЁГўГ«ГҐГ­ГЁГѕ ГµГ®Г°Г®ГёГ® Г±Г®ГµГ°Г Г­ГЁГўГёГ ГїГ±Гї ГЄГіГ°ГІГЄГ . ГЋГІ ГЇГіГ«Гј Г­ГҐ Г§Г Г№ГЁГІГЁГІ, Г¤Г  ГЁ Г­ГҐ Г®ГІ Г·ГҐГЈГ® Г¤Г°ГіГЈГ®ГЈГ®. ГЌГ® Г§Г ГІГ® Гў Г­ГҐГ© ГІГҐГЇГ«Г®."
 	eng_desc = "Puffer."
 	icon_state = "butler"
 	item_state = "butler"
@@ -910,12 +910,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 10, bullet = 5, laser = 0,burn = 20, bomb = 0, bio = 0, rad = 0, electro = 0, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 60
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/metro/armyvest
 	name = "6B3"
-	desc = "Отечественный бронежилет, прилетевший к нам пр&#255;миком из периода Афганской войны. К удивлению - достаточно хорошо сохранилс&#255;. И обеспечивает неплохую защиту большей части тела. Быстро изнашиваетс&#255;."
+	desc = "ГЋГІГҐГ·ГҐГ±ГІГўГҐГ­Г­Г»Г© ГЎГ°Г®Г­ГҐГ¦ГЁГ«ГҐГІ, ГЇГ°ГЁГ«ГҐГІГҐГўГёГЁГ© ГЄ Г­Г Г¬ ГЇГ°&#255;Г¬ГЁГЄГ®Г¬ ГЁГ§ ГЇГҐГ°ГЁГ®Г¤Г  ГЂГґГЈГ Г­Г±ГЄГ®Г© ГўГ®Г©Г­Г». ГЉ ГіГ¤ГЁГўГ«ГҐГ­ГЁГѕ - Г¤Г®Г±ГІГ ГІГ®Г·Г­Г® ГµГ®Г°Г®ГёГ® Г±Г®ГµГ°Г Г­ГЁГ«Г±&#255;. Г€ Г®ГЎГҐГ±ГЇГҐГ·ГЁГўГ ГҐГІ Г­ГҐГЇГ«Г®ГµГіГѕ Г§Г Г№ГЁГІГі ГЎГ®Г«ГјГёГҐГ© Г·Г Г±ГІГЁ ГІГҐГ«Г . ГЃГ»Г±ГІГ°Г® ГЁГ§Г­Г ГёГЁГўГ ГҐГІГ±&#255;."
 	eng_desc = "Russian armored vest"
 	icon_state = "6b3"
 	item_state = "6b3"
@@ -928,12 +928,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 40, bullet = 80, laser = 0,burn = 20, bomb = 50, bio = 0, rad = 0, electro = 0, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 100
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/metro/heavycustomarmor
 	name = "Heavy Armor"
-	desc = "Комплект тяжёлой брони, сделанной из подручных материалов. Чуть более просторна и манёврена в сравнении с той же бандитской, однако и защищает несколько хуже."
+	desc = "ГЉГ®Г¬ГЇГ«ГҐГЄГІ ГІГїГ¦ВёГ«Г®Г© ГЎГ°Г®Г­ГЁ, Г±Г¤ГҐГ«Г Г­Г­Г®Г© ГЁГ§ ГЇГ®Г¤Г°ГіГ·Г­Г»Гµ Г¬Г ГІГҐГ°ГЁГ Г«Г®Гў. Г—ГіГІГј ГЎГ®Г«ГҐГҐ ГЇГ°Г®Г±ГІГ®Г°Г­Г  ГЁ Г¬Г Г­ВёГўГ°ГҐГ­Г  Гў Г±Г°Г ГўГ­ГҐГ­ГЁГЁ Г± ГІГ®Г© Г¦ГҐ ГЎГ Г­Г¤ГЁГІГ±ГЄГ®Г©, Г®Г¤Г­Г ГЄГ® ГЁ Г§Г Г№ГЁГ№Г ГҐГІ Г­ГҐГ±ГЄГ®Г«ГјГЄГ® ГµГіГ¦ГҐ."
 	eng_desc = "Heavy custom-made armor"
 	icon_state = "mercwebvest"
 	item_state = "mercwebvest"
@@ -943,15 +943,15 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	heat_protection = CHEST|GROIN|LEGS|ARMS|HANDS
 	max_heat_protection_temperature = FIRE_SUIT_MIN_TEMP_PROTECT
 	//flags_inv = HIDEJUMPSUIT
-	armor = list(melee = 40, bullet = 80, laser = 0,burn = 20, bomb = 20, bio = 10, rad = 0, electro = 0, psy = 0)
+	armor = list(melee = 40, bullet = 80, laser = 0,burn = 20, bomb = 50, bio = 10, rad = 0, electro = 0, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 160
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/metro/labcoat
 	name = "Blue labcoat"
-	desc = "Потрёпанный лабораторный халат. Слабо защищает от химического урона. Других особенностей, помимо классного вида, увы - не имеет."
+	desc = "ГЏГ®ГІГ°ВёГЇГ Г­Г­Г»Г© Г«Г ГЎГ®Г°Г ГІГ®Г°Г­Г»Г© ГµГ Г«Г ГІ. Г‘Г«Г ГЎГ® Г§Г Г№ГЁГ№Г ГҐГІ Г®ГІ ГµГЁГ¬ГЁГ·ГҐГ±ГЄГ®ГЈГ® ГіГ°Г®Г­Г . Г„Г°ГіГЈГЁГµ Г®Г±Г®ГЎГҐГ­Г­Г®Г±ГІГҐГ©, ГЇГ®Г¬ГЁГ¬Г® ГЄГ«Г Г±Г±Г­Г®ГЈГ® ГўГЁГ¤Г , ГіГўГ» - Г­ГҐ ГЁГ¬ГҐГҐГІ."
 	eng_desc = "Old doctors labcoat."
 	icon_state = "medlabcoat"
 	item_state = "medlabcoat"
@@ -965,12 +965,12 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 10, bullet = 0, laser = 0,burn = 30, bomb = 0, bio = 40, rad = 30, electro = 0, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 60
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/suit/hooded/sealed/radsuit
 	name = "Bio-suit"
-	desc = "Старый противо-радиационный костюм, не имеющий какой-то сверхъестественной защиты от пуль, но хорошо спасающий от радиации."
+	desc = "Г‘ГІГ Г°Г»Г© ГЇГ°Г®ГІГЁГўГ®-Г°Г Г¤ГЁГ Г¶ГЁГ®Г­Г­Г»Г© ГЄГ®Г±ГІГѕГ¬, Г­ГҐ ГЁГ¬ГҐГѕГ№ГЁГ© ГЄГ ГЄГ®Г©-ГІГ® Г±ГўГҐГ°ГµГєГҐГ±ГІГҐГ±ГІГўГҐГ­Г­Г®Г© Г§Г Г№ГЁГІГ» Г®ГІ ГЇГіГ«Гј, Г­Г® ГµГ®Г°Г®ГёГ® Г±ГЇГ Г±Г ГѕГ№ГЁГ© Г®ГІ Г°Г Г¤ГЁГ Г¶ГЁГЁ."
 	eng_desc = "Old rad-suit."
 	icon_state = "bio_custom"
 	item_state = "bio_custom"
@@ -985,7 +985,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 10, bullet = 10, laser = 0, burn = 90, bomb = 10, bio = 90, rad = 100, electro = 50, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 80
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/head/winterhood/metro/sealed/bio
@@ -998,7 +998,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 
 /obj/item/clothing/suit/hooded/sealed/radsuit/upgraded
 	name = "Upgraded bio-suit"
-	desc = "Модифицированный защитный костюм, созданный специально дл&#255; работы в услови&#255;х повышенного радиационного фона. Несколько металлических плит, установленных мастерами Кузнецкой - не только отражают некоторе внешнее излучение, но и неплохо защищают от любого вида кинетического урона."
+	desc = "ГЊГ®Г¤ГЁГґГЁГ¶ГЁГ°Г®ГўГ Г­Г­Г»Г© Г§Г Г№ГЁГІГ­Г»Г© ГЄГ®Г±ГІГѕГ¬, Г±Г®Г§Г¤Г Г­Г­Г»Г© Г±ГЇГҐГ¶ГЁГ Г«ГјГ­Г® Г¤Г«&#255; Г°Г ГЎГ®ГІГ» Гў ГіГ±Г«Г®ГўГЁ&#255;Гµ ГЇГ®ГўГ»ГёГҐГ­Г­Г®ГЈГ® Г°Г Г¤ГЁГ Г¶ГЁГ®Г­Г­Г®ГЈГ® ГґГ®Г­Г . ГЌГҐГ±ГЄГ®Г«ГјГЄГ® Г¬ГҐГІГ Г«Г«ГЁГ·ГҐГ±ГЄГЁГµ ГЇГ«ГЁГІ, ГіГ±ГІГ Г­Г®ГўГ«ГҐГ­Г­Г»Гµ Г¬Г Г±ГІГҐГ°Г Г¬ГЁ ГЉГіГ§Г­ГҐГ¶ГЄГ®Г© - Г­ГҐ ГІГ®Г«ГјГЄГ® Г®ГІГ°Г Г¦Г ГѕГІ Г­ГҐГЄГ®ГІГ®Г°ГҐ ГўГ­ГҐГёГ­ГҐГҐ ГЁГ§Г«ГіГ·ГҐГ­ГЁГҐ, Г­Г® ГЁ Г­ГҐГЇГ«Г®ГµГ® Г§Г Г№ГЁГ№Г ГѕГІ Г®ГІ Г«ГѕГЎГ®ГЈГ® ГўГЁГ¤Г  ГЄГЁГ­ГҐГІГЁГ·ГҐГ±ГЄГ®ГЈГ® ГіГ°Г®Г­Г ."
 	eng_desc = "Upgraded rad-suit."
 	icon_state = "bombsuit_custom"
 	item_state = "bombsuit_custom"
@@ -1013,7 +1013,7 @@ obj/item/clothing/head/winterhood/stalker/ecolog/New()
 	armor = list(melee = 40, bullet = 40, laser = 0, burn = 90, bomb = 30, bio = 95, rad = 100, electro = 50, psy = 0)
 	allowed = list(/obj/item/weapon/gun/projectile,/obj/item/weapon/gun/projectile/shotgun/automatic/combat,/obj/item/ammo_box,/obj/item/ammo_casing,/obj/item/weapon/restraints/handcuffs,/obj/item/device/flashlight/seclite,/obj/item/weapon/storage/fancy/cigarettes,/obj/item/weapon/lighter,/obj/item/weapon/kitchen/knife/tourist)
 	durability = 120
-	//МОДИФИКАЦИИ//
+	//ГЊГЋГ„Г€Г”Г€ГЉГЂГ–Г€Г€//
 	modifications = list("lining_suit" = 0, "padding_suit" = 0, "material_suit" = 0, "accessory_slot" = 0)
 
 /obj/item/clothing/head/winterhood/metro/sealed/bomb
