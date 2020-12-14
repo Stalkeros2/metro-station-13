@@ -124,10 +124,10 @@
 	multiple_sprites = 2
 
 /obj/item/ammo_box/magazine/metro/sks
-	name = "carabine magazine (7.62x54mm)"
+	name = "carabine magazine (7.62x51mm)"
 	icon_state = "sks"
-	ammo_type = /obj/item/ammo_casing/c762x54
-	caliber = "7.62x54mm"
+	ammo_type = /obj/item/ammo_casing/c762x51
+	caliber = "7.62x51mm"
 	max_ammo = 10
 	multiple_sprites = 2
 

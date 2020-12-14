@@ -404,7 +404,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/ppsh  // ППШ
 	name = "PPSh"
-	desc = "Один из самых старых отечественных дизайнов автоматического ручного оружи&#255;, пистолет-пулемет Шпагина, с гордостью прошел сквозь Великую Отечественную... чтобы в огромных количествах осесть на складах и ржаветь там более полувека. Некоторые умельцы, однако, хорошенько поработав над старым оружием, переделывают его под новый калибр и отправл&#255;ют Сидору на продажу. У вас в руках - один из таких экземпл&#255;ров."
+	desc = "Один из самых старых отечественных дизайнов автоматического ручного оружи&#255;, пистолет-пулемет Шпагина, с гордостью прошел сквозь Великую Отечественную... чтобы в огромных количествах осесть на складах и ржаветь там более полувека. Некоторые умельцы, однако, хорошенько поработав над старым оружием, переделывают его под новый калибр. У вас в руках - один из таких экземпл&#255;ров."
 	eng_desc = "The PPSh saw extensive combat use during World War II and the Korean War. It was one of the major infantry weapons of the Soviet Armed Forces during World War II. Around six million PPSh-41s were manufactured. In the form of the Chinese Type 50 (licensed copy), it was still being used by the Viet Cong as late as 1970. According to the 2002 edition of the Encyclopedia of Weapons of World War II the PPSh was still in use with irregular militaries."
 	icon_state = "ppsh"
 	item_state = "arg"
@@ -428,7 +428,7 @@
 /obj/item/weapon/gun/projectile/automatic/ak74/tact  // AK-74
 	name = "Tactical AK 74"
 	desc = "Сильно модифицированна&#255; верси&#255; АК 74, превосход&#255;ща&#255; его точностью и скорострельностью, но уступающа&#255; своему прародителю в мощности. Идеальное оружие дл&#255; ведени&#255; перестрелок в услови&#255;х метро."
-	eng_desc = "Modified AK 74"
+	eng_desc = "Modified AK74. You shouldn't hold this."
 	icon_state = "TactiKalash"
 	item_state = "TactiKalash"
 	colored = 0//"normal"
@@ -457,7 +457,7 @@
 /obj/item/weapon/gun/projectile/automatic/ak74/makeshift  // AK-74
 	name = "Makeshift Kalash"
 	desc = "Кустарна&#255; верси&#255; широко известного калаша, собираема&#255; тут в метро, на станци&#255;х. В сравнении с своими аналогами - более гибок в плане кастомизации, однако, куда менее надёжен и точен, чем свой старший собрат. Попул&#255;рное среди сталкеров и бойцов КР оружие."
-	eng_desc = "Makeshift AK 74"
+	eng_desc = "Makeshift AK74. It isn't as accurate as pre-war variant, but it's still something and it's still better than Bastard!"
 	icon_state = "makeshiftak"
 	item_state = "ak74"
 	colored = 0//"normal"
@@ -484,7 +484,7 @@
 /obj/item/weapon/gun/projectile/automatic/metro/bastard
 	name = "Bastard"
 	desc = "Этот кустарный автомат отличаетс&#255; высоким темпом стрельбы, в результате чего быстро перегреваетс&#255; и заклинивает, чем и заслужил своё название."
-	eng_desc = "Custom-made assault rifle."
+	eng_desc = "Custom-made... something. Experience and time showed its ability to kill someone or something for sure, but... eh..."
 	icon_state = "bastard"
 	item_state = "bastard"
 	fire_sound = 'sound/stalker/weapons/berettam38_shot.ogg'
@@ -506,8 +506,8 @@
 
 /obj/item/weapon/gun/projectile/automatic/metro/saiga12  // Сайга
 	name = "Saiga-12"
-	desc = "Одно из самых устрашающих в метро орудий, претерпевшее не мало изменений после конца света. Жертву&#255; своим боезапасом и точностью, оружие приобрело огромную скорострельность и убойность. Идеальна&#255; защита от мутантов."
-	eng_desc = "Automatic shotgun."
+	desc = "Одно из самых устрашающих в метро орудий, претерпевшее не мало изменений после конца света. Жертву&#255; своим боезапасом и точностью, оружие приобрело огромную скорострельность и убойность. Идеальна&#255; защита от мутантов. Увы, раздобыть тоже, грубо говоря, хер."
+	eng_desc = "Automatic shotgun. You feel its power just by holding it."
 	icon_state = "saiga"
 	item_state = "saiga"
 	colored = 0//"normal"
@@ -643,7 +643,7 @@
 ///////////////////////////// Снайперские винтовки //////////////////////////////////////////
 /obj/item/weapon/gun/projectile/automatic/vsv
 	name = "VSV"
-	desc = "Довоенна&#255; штурмова&#255; винтовка, в метро - редкое и дорогое удовольствие."
+	desc = "Довоенна&#255; штурмова&#255; винтовка, в метро не продаётс&#255;, едва можно найти на брошенных военных объектах."
 	eng_desc = "A modified version of the silent Vintorez sniper rifle, the assault rifle was designed as a special forces weapon. The rifle's primary purpose is effective fire against enemies employing modern personal protection equipment without disclosing the shooter's location. Thanks to its integrated silencer and 9x39mm caliber round with a heavy subsonic bullet, the weapon's noise and muzzle flash have been reduced to a minimum."
 	icon_state = "vsv"
 	item_state = "vsv"
@@ -673,7 +673,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/svd
 	name = "SVD"
-	desc = "Снайперска&#255; винтовка Драгунова. Предназначена дл&#255; бесшумной снайперской стрельбы."
+	desc = "Снайперска&#255; винтовка Драгунова. Предназначена дл&#255; снайперской стрельбы."
 	eng_desc = "SVD"
 	icon_state = "svd"
 	item_state = "svd"
@@ -728,7 +728,7 @@
 /obj/item/weapon/gun/projectile/automatic/m16a1
     name = "M16A1"
     desc = "Штурмовая винтовка западного производства, извечный противник 'калаша'."
-    eng_desc = "Your favourite gun, fucking capitalist."
+    eng_desc = "AK's enemy."
     icon_state = "m16a1"
     item_state = "m16a1"
     colored = 0
@@ -750,7 +750,7 @@
 
 /obj/item/weapon/gun/projectile/automatic/sks
 	name = "SKS"
-	desc = "Советский самозарядный карабин конструкции Сергея Симонова. Широко используемое в метро оружие."
+	desc = "Советский самозар&#255;дный карабин конструкции Серге&#255; Симонова. Нешироко примен&#255;емый за счёт дороговизны агрегат."
 	eng_desc = "Soviet carabine."
 	icon_state = "sks"
 	item_state = "sks"
@@ -778,7 +778,7 @@
 /obj/item/weapon/gun/projectile/automatic/ak12
 	name = "AK12"
 	desc = "Автомат калашникова, образец 2012 года."
-	eng_desc = "AK12. Yopta."
+	eng_desc = "AK 2012. Tacticool one."
 	icon_state = "ak12"
 	item_state = "ak12"
 	fire_sound = 'sound/stalker/weapons/ak74_shot.ogg'

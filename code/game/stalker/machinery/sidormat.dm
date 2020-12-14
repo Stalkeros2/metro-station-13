@@ -8,32 +8,28 @@ var/list/global_sidormat_list = list(
 		///////////////////////////////  Оружие  /////////////////////////////////////////
 	"Handguns" = list(
 		///////////////////////////// **Пистолеты** /////////////////////////////////////
-		new /datum/data/stalker_equipment("Colt M1911",		"Кольт",			/obj/item/weapon/gun/projectile/automatic/pistol/cora,				6000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("PM",		"ПМ",			/obj/item/weapon/gun/projectile/automatic/pistol/pm,				6000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("Podonok",     "Подонок"  /obj/item/weapon/gun/projectile/automatic/metro/podonok             6000, EXPERIENCED),
 		new /datum/data/stalker_equipment("Revolver .44",	"Револьвер",	/obj/item/weapon/gun/projectile/revolver/metro/revolver,					3000,	ROOKIE)
 		),
 
 	"Automatic Weapons" = list(
 		///////////////////////////// **Автоматы, ПП** /////////////////////////////////////
 		new /datum/data/stalker_equipment("Bastard",	"Ублюдок",		/obj/item/weapon/gun/projectile/automatic/metro/bastard,				10000,	ROOKIE),
-		new /datum/data/stalker_equipment("AK-74S",			"АК-74У",			/obj/item/weapon/gun/projectile/automatic/aksu74 ,					22000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("Makeshift Kalash",			"Кустарный калаш",			/obj/item/weapon/gun/projectile/automatic/ak74/makeshift,						18000,	ROOKIE),
-		new /datum/data/stalker_equipment("AK-74",			"АК-74",			/obj/item/weapon/gun/projectile/automatic/ak74,						28000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("AS-96",			"АС-96",			/obj/item/weapon/gun/projectile/automatic/abakan,					35000,	VETERAN),
-		new /datum/data/stalker_equipment("VSV",		"ВСВ",		/obj/item/weapon/gun/projectile/automatic/vsv,						40000,	ROOKIE),
-		new /datum/data/stalker_equipment("FN SCAR-H",		"СКАР",		/obj/item/weapon/gun/projectile/automatic/scar,						50000,	VETERAN)
+		new /datum/data/stalker_equipment("Makeshift Kalash",			"Кустарный калаш",			/obj/item/weapon/gun/projectile/automatic/ak74/makeshift,	18000,	EXPERIENCED),
+		new /datum/data/stalker_equipment ("Kiparis",    "Кипарис"       /obj/item/weapon/gun/projectile/automatic/kiparis                10000, ROOKIE),
+		new /datum/data/stalker_equipment ("PPSh", "ППШ"                 /obj/item/weapon/gun/projectile/automatic/ppsh        10000, ROOKIE)
 		),
 
 	"Shotguns" = list(
 		/////////////////////////////// **Дробовики** /////////////////////////////////////
-		new /datum/data/stalker_equipment("Doublet",		"Дуплет",			/obj/item/weapon/gun/projectile/revolver/metro/douplet,				8000,	ROOKIE),
-		new /datum/data/stalker_equipment("Ashot",			"Ашот",			/obj/item/weapon/gun/projectile/revolver/metro/ashot,						2000,	ROOKIE),
-		new /datum/data/stalker_equipment("Shambler",		"Убойник",			/obj/item/weapon/gun/projectile/shotgun/automatic/combat,						25000,	ROOKIE),
-		new /datum/data/stalker_equipment("Saiga-12",		"Сайга-12",			/obj/item/weapon/gun/projectile/automatic/metro/saiga12,						45000,	EXPERIENCED)
+		new /datum/data/stalker_equipment("Doublet",		"Дуплет",			/obj/item/weapon/gun/projectile/revolver/metro/douplet,				15000,	ROOKIE),
+		new /datum/data/stalker_equipment("Ashot",			"Ашот",			/obj/item/weapon/gun/projectile/revolver/metro/ashot,						12000,	ROOKIE),
+		new /datum/data/stalker_equipment("Shambler",		"Убойник",			/obj/item/weapon/gun/projectile/shotgun/automatic/combat,						25000,	EXPERIENCED)
 		),
 
 	"Rifles" = list(
 		/////////////////////////////// **Винтовки** /////////////////////////////////////
-		new /datum/data/stalker_equipment("SVD", 		"СВД",			/obj/item/weapon/gun/projectile/automatic/svd,					70000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("SKS", 		"СКС",			/obj/item/weapon/gun/projectile/automatic/sks,					50000,	EXPERIENCED)
 		),
 
@@ -48,25 +44,17 @@ var/list/global_sidormat_list = list(
 	"Ammo Boxes" = list(
 		////////////////////////////////  Патроны  /////////////////////////////////////////
 		new /datum/data/stalker_equipment(".44 Magnum Box",			"Коробка .44 Магнум",						/obj/item/weapon/storage/box/metro/pistol_44_mag,						3000,	ROOKIE),
-		new /datum/data/stalker_equipment(".44 Magnum FMJ Box",		"Коробка .44 Магнум Цельномет. оболочка",	/obj/item/weapon/storage/box/metro/pistol_44_mag_fmj,					8000,	ROOKIE),
 		new /datum/data/stalker_equipment("12x70 Buckshot Box",		"Коробка дроби 12x70",						/obj/item/weapon/storage/box/metro/shotgun_b12x70,						4000,	ROOKIE),
-		new /datum/data/stalker_equipment("12x70 Slug Box",			"Коробка дроби 12x70 Бронебойные",			/obj/item/weapon/storage/box/metro/shotgun_b12x70p,						6000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("5.45x39mm Box",			"Коробка 5.45х39мм",						/obj/item/weapon/storage/box/metro/rifle_545x39,						8000,	ROOKIE),
-		new /datum/data/stalker_equipment("5.45x39mm AP Box",		"Коробка 5.45х39мм Бронебойные",			/obj/item/weapon/storage/box/metro/rifle_545x39ap,						16000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("5.45x39mm Small Box",			"Компактна&#x44F; коробка 5.45х39мм",						/obj/item/weapon/storage/box/metro/rifle_545x39_small,						4000,	ROOKIE),
-		new /datum/data/stalker_equipment("5.45x39mm Small AP Box",		"Компактна&#x44F; коробка 5.45х39мм Бронебойные",			/obj/item/weapon/storage/box/metro/rifle_545x39ap_small,						8000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("7.62x54 ammo",			"Горстка патрон 7.62х54",							/obj/item/ammo_box/stalker/b762x54,						9000,	ROOKIE)
+		new /datum/data/stalker_equipment("7.62x51 ammo",			"Горстка патрон 7.62х51",							/obj/item/ammo_box/stalker/b762x51,						9000,	ROOKIE)
 		),
 
 	"Ammo Magazines and Clips" = list(
-		new /datum/data/stalker_equipment("5.45x39mm Magazine",						"Магазин 5.45x39мм",			/obj/item/ammo_box/magazine/stalker/m545,				2250,	EXPERIENCED),
-		new /datum/data/stalker_equipment("Makeshift 5.45x39mm Magazine",						"Самопальный магазин 5.45x39мм",			/obj/item/ammo_box/magazine/stalker/makeshift,			1800,	ROOKIE),
-		new /datum/data/stalker_equipment("VSV Magazine",					"Магазин к ВСВ",			/obj/item/ammo_box/magazine/metro/vsv,			3000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("Makeshift 5.45x39mm Magazine",						"Кустарный магазин 5.45x39мм",			/obj/item/ammo_box/magazine/stalker/makeshift,			1800,	ROOKIE),
 		new /datum/data/stalker_equipment("Bastard Magazine",					"Магазин к Ублюдку",			/obj/item/ammo_box/magazine/metro/bastard,			1500,	ROOKIE),
-		new /datum/data/stalker_equipment("Vintorez Magazine",						"Магазин к Винторезу",			/obj/item/ammo_box/magazine/stalker/svd,			3000,	VETERAN),
-		new /datum/data/stalker_equipment("Colt M1911 magazine",	"Магазин к Кольту",		/obj/item/ammo_box/magazine/stalker/sc45,				1200,	ROOKIE),
-		new /datum/data/stalker_equipment("Saiga-12 Magazine",					"Магазин к Сайге-12",			/obj/item/ammo_box/magazine/metro/saiga,			2500,	ROOKIE),
-		new /datum/data/stalker_equipment("FN SCAR-H Magazine",					"Магазин к СКАРу",			/obj/item/ammo_box/magazine/metro/scarh,			4000,	EXPERIENCED),
+		new /datum/data/stalker_equipment("PM magazine",	"Магазин к ПМ",		/obj/item/ammo_box/magazine/stalker/m9x18pm,				1200,	ROOKIE),
+		new /datum/data/stalker_equipment("PPSh Magazine",					"Магазин к ППШ",			/obj/item/ammo_box/magazine/stalker/ppsh,			4000,	ROOKIE),
 		new /datum/data/stalker_equipment("SKS Magazine",					"Магазин к СКС",			/obj/item/ammo_box/magazine/metro/sks,			2000,	EXPERIENCED)
 		),
 
@@ -79,18 +67,16 @@ var/list/global_sidormat_list = list(
 		new /datum/data/stalker_equipment("Heavy custom-made armor",			"Т&#x44F;жёла&#x44F; кустарна&#x44F; брон&#x44F;",						/obj/item/clothing/suit/metro/heavycustomarmor,		30000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Millitary armored vest",			"Армейский бронежилет",						/obj/item/clothing/suit/metro/armveststandart,		25000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Heavy armor",					"Т&#x44F;жёла&#x44F; армейска&#x44F; брон&#x44F;",						/obj/item/clothing/suit/metro/banditsheavyarmor,								40000,	EXPERIENCED),
-		new /datum/data/stalker_equipment("6B3",					"6Б3",							/obj/item/clothing/suit/metro/armyvest,								38000,	EXPERIENCED),
-		new	/datum/data/stalker_equipment("Blue labcoat",					"Докторский халат",							/obj/item/clothing/suit/metro/labcoat,				4000,	ROOKIE),
 		new	/datum/data/stalker_equipment("Civilian bio-suit",			"Гражданский защитный костюм",					/obj/item/clothing/suit/hooded/sealed/radsuit,				40000,	EXPERT),
 		new	/datum/data/stalker_equipment("Stalker's upgraded bio-suit",			"Улучшенный защитный костюм",					/obj/item/clothing/suit/hooded/sealed/radsuit/upgraded,				70000,	EXPERIENCED)
 		),
 
 	"Masks and Helmets" = list(
 		////////////////////////////	Маски, Шлемы	/////////////////////////////////////
-		new /datum/data/stalker_equipment("Gasmask",					"Противогаз",					/obj/item/clothing/mask/gas/metro,							4500,	ROOKIE),
-		new /datum/data/stalker_equipment("Stalkers gasmask",				"Продвинутый сталкерский противогаз",			/obj/item/clothing/mask/gas/stalker/mercenary,					7500,	EXPERIENCED),
+		new /datum/data/stalker_equipment("Gasmask",					"Противогаз",					/obj/item/clothing/mask/gas/metro,							2500,	ROOKIE),
+		new /datum/data/stalker_equipment("Stalkers gasmask",				"Продвинутый сталкерский противогаз",			/obj/item/clothing/mask/gas/stalker/mercenary,					5000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Steel helmet",				"Стальна&#x44F; каска",				/obj/item/clothing/head/metro/steel,									7500,	ROOKIE),
-		new /datum/data/stalker_equipment("Tactical helmet",		"Тактический шлем",		/obj/item/clothing/head/metro/tactical,					10000,	EXPERIENCED)
+		new /datum/data/stalker_equipment("Tactical helmet",		"Тактический шлем",		/obj/item/clothing/head/metro/tactical,					15000,	EXPERIENCED)
 		),
 
 	"Medicine" = list(
@@ -155,7 +141,6 @@ var/list/global_sidormat_list = list(
 	"Attachments" = list(
 		/////////////////////////////////	Аттачменты	///////////////////////////////////////////
 		new /datum/data/stalker_equipment("Universl suppressor",	"Универсальный глушитель",					/obj/item/weapon/attachment/suppressor,				2000,	ROOKIE),
-		new /datum/data/stalker_equipment("SUSAT",					"СУСАТ",									/obj/item/weapon/attachment/scope/SUSAT,			8000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("PSU-1",					"ПСУ-1",									/obj/item/weapon/attachment/scope/PS/U1,			6000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("PSO-1",					"ПСО-1",									/obj/item/weapon/attachment/scope/PS/O1,			10000,	EXPERIENCED),
 		new /datum/data/stalker_equipment("Riflescope",	"Прицел дл&#x44F; винтовок",		/obj/item/weapon/attachment/scope/rifle,			8000,	ROOKIE)
