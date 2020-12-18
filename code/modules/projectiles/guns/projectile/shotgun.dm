@@ -222,13 +222,13 @@
 /obj/item/weapon/gun/projectile/shotgun/automatic/combat
 	name = "Shambler"
 	desc = "Точный скорострельный дробовик, сделанный в метро. Великолепен как на средней дистанции, так и в ближнем бою, однако перезар&#255;дка его занимает довольно много времени."
-	eng_desc = "Automatic six-shot shotgun, made in metro."
+	eng_desc = "Automatic six-shot shotgun, made in Metro. Perfect for mid-and-short combat encounters."
 	icon_state = "shambler"
 	item_state = "shambler"
 	origin_tech = "combat=5;materials=2"
 	fire_sound = 'sound/stalker/weapons/spsa_shot.ogg'
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/com
-	slot_flags = SLOT_BACK|SLOT_BELT
+	slot_flags = SLOT_BACK
 	w_class = 4
 	recoil = 1.0
 	durability = 100

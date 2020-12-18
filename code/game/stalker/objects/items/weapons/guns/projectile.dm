@@ -5,8 +5,8 @@
 
 /obj/item/weapon/gun/projectile/automatic/pistol/pm   // Макаров
 	name = "PMm"
-	desc = "Пистолет Макарова Модернизированный. Наиболее распространённый в зоне пистолет - наследие советской эпохи. Достаточно надёжный и дешёвый, отличаетс&#255; невысокой ёмкостью магазина при недостаточной мощности и неудовлетворительности кучности патрона. Основное оружие сталкера-новичка-неудачника. Отличное средство дл&#255; распугивани&#255; ворон."
-	eng_desc = "This Soviet legacy is the most common pistol in the Zone and is one of the best compact self-defense handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including its short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size."
+	desc = "Пистолет Макарова Модернизированный. Довольно распространённый в Метро пистолет - наследие советской эпохи. Достаточно надёжный и дешёвый, отличаетс&#255; невысокой ёмкостью магазина при недостаточной мощности и неудовлетворительности кучности патрона. Основное оружие сталкера-новичка-неудачника. Отличное средство дл&#255; распугивани&#255; ворон."
+	eng_desc = "This Soviet legacy is the most common pistol in the Metro and is one of the best compact self-defense handguns available. It is small, highly reliable, easy to use and maintain in working order. It also suffers from several drawbacks, including its short range, low firing accuracy and poor stopping power, while also losing out to modern pistols in its class in terms of weight and magazine size."
 	icon_state = "pm"
 	w_class = 2
 	fire_sound = 'sound/stalker/weapons/pm_shot.ogg'
@@ -674,7 +674,7 @@
 /obj/item/weapon/gun/projectile/automatic/svd
 	name = "SVD"
 	desc = "Снайперска&#255; винтовка Драгунова. Предназначена дл&#255; снайперской стрельбы."
-	eng_desc = "SVD"
+	eng_desc = "Snayperskaya vintovka Dragunova. Designed for snipership."
 	icon_state = "svd"
 	item_state = "svd"
 	fire_sound = 'sound/stalker/weapons/enfield_shot.ogg'
@@ -701,7 +701,7 @@
 	loadsound = 'sound/stalker/weapons/load/val_load.ogg'
 	opensound = 'sound/stalker/weapons/unload/val_open.ogg'
 
-/obj/item/weapon/gun/projectile/automatic/scar  // скар
+	/obj/item/weapon/gun/projectile/automatic/scar
 	name = "FN SCAR-H"
 	desc = "Особенна&#255; винтовка, поражающа&#255; своей точностью и низкой отдачей. Разработана специальным зарубежным комплексом. Так сложилось, что прототип переделали под патрон калибра 5.56."
 	eng_desc = "FN Herstal weapon system."
@@ -728,7 +728,7 @@
 /obj/item/weapon/gun/projectile/automatic/m16a1
     name = "M16A1"
     desc = "Штурмовая винтовка западного производства, извечный противник 'калаша'."
-    eng_desc = "AK's enemy."
+    eng_desc = "Assault rifle produced on west."
     icon_state = "m16a1"
     item_state = "m16a1"
     colored = 0
@@ -781,7 +781,7 @@
 	eng_desc = "AK 2012. Tacticool one."
 	icon_state = "ak12"
 	item_state = "ak12"
-	fire_sound = 'sound/stalker/weapons/ak74_shot.ogg'
+	fire_sound = 'sound/stalker/weapons/ak12_shoot.ogg'
 	mag_type = /obj/item/ammo_box/magazine/ak12
 	can_suppress = 0
 	burst_size = 3

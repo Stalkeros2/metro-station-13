@@ -14,3 +14,4 @@
 *.int
 data/
 #config/config.txt
+config/motd.txt
